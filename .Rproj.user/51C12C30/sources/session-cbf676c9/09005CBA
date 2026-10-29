@@ -3,7 +3,7 @@
     "path": "~/Downloads/Website/meu-site-medico/internato.qmd",
     "project_path": "internato.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "1511438060",
     "contents": "",
     "dirty": false,
     "created": 1793237441604.0,
@@ -17,15 +17,15 @@
         "docOutlineVisible": "1",
         "rmdVisualModeLocation": "1126:389",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "31,70",
+        "cursorPosition": "16,0",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1793291582,
+    "lastKnownWriteTime": 1793294920,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1793291582686,
+    "last_content_update": 1793294920809,
     "read_only": false,
     "read_only_alternatives": []
 }

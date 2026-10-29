@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Da teoria ao raciocínio clínico.",
-    "section": "",
-    "text": "CAMILO DIAZ · MEDICINA\n\n\n\n\nPreparação para a residência, raciocínio clínico e aprendizados do internato. Um espaço para conectar conhecimento científico, fisiopatologia e prática médica.\n\nEXPLORAR CONTEÚDOS ↓"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "index.html#explorar",
-    "href": "index.html#explorar",
-    "title": "Conhecimento médico para a vida real.",
-    "section": "Um olhar sobre a medicina",
-    "text": "Um olhar sobre a medicina\n\n\n01\n\nSaúde explicada\nEntenda doenças, sintomas, prevenção e os mecanismos por trás do corpo humano.\nExplorar conteúdos →\n\n\n\n02\n\nCiência e evidências\nEstudos científicos, descobertas e o que as evidências realmente nos dizem.\nExplorar conteúdos →\n\n\n\n03\n\nCaderno clínico\nReflexões sobre fisiopatologia, raciocínio clínico e aprendizado em medicina.\nExplorar conteúdos →\n\n\n\n\nCiência com rigor. Comunicação com clareza. Medicina com propósito."
-  },
-  {
-    "objectID": "index.html#pilares",
-    "href": "index.html#pilares",
-    "title": "Da teoria ao raciocínio clínico.",
-    "section": "Explore por tema",
-    "text": "Explore por tema\n\n\n01 / RESIDÊNCIA\n\nRumo à residência\nRevisões de temas recorrentes, questões comentadas, diagnósticos diferenciais e condutas importantes para as provas.\nExplorar conteúdos →\n\n\n\n02 / INTERNATO\n\nO internato na prática\nAprendizados dos cenários clínicos, reflexões sobre a formação médica e experiências que ajudam a conectar teoria e prática.\nExplorar conteúdos →\n\n\n\n03 / FISIOPATOLOGIA\n\nPor trás da doença\nCuriosidades clínicas, mecanismos fisiopatológicos e explicações sobre como sintomas, sinais e doenças se relacionam.\nExplorar conteúdos →\n\n\n\n\n\nEstudar para compreender. Compreender para raciocinar melhor."
-  },
-  {
     "objectID": "residencia.html",
     "href": "residencia.html",
     "title": "Rumo à residência",
@@ -42,20 +14,6 @@
     "text": "Sínteses dos temas mais importantes da formação médica, com foco nos conceitos fundamentais, nas apresentações clínicas e nas condutas relevantes.\n\n\n\nResolução de questões com análise das alternativas, identificação das pegadinhas e explicação do raciocínio necessário para chegar à resposta.\n\n\n\nCasos estruturados para exercitar anamnese, exame físico, hipóteses diagnósticas, investigação complementar e planejamento terapêutico.\n\n\n\nRegistro dos conceitos que merecem revisão, com explicações para compreender por que uma alternativa está correta e por que as demais não estão.\n\nDa revisão à aplicação: o objetivo é compreender para raciocinar melhor."
   },
   {
-    "objectID": "internato.html",
-    "href": "internato.html",
-    "title": "O internato na prática",
-    "section": "",
-    "text": "O internato é o momento em que o conhecimento teórico começa a ser colocado à prova diante de situações clínicas reais. Cada atendimento traz oportunidades para desenvolver o raciocínio clínico, aprimorar a comunicação e compreender melhor o cuidado ao paciente.\nEsta seção reúne aprendizados da formação médica, sempre com compromisso com a evidência científica, a ética e a privacidade dos pacientes.\n\n\n\n\nReflexões sobre situações clínicas, desafios da rotina hospitalar e conhecimentos que fazem diferença na formação médica.\n\n\n\nDiscussões sobre como organizar hipóteses diagnósticas, interpretar achados clínicos e compreender a tomada de decisão médica.\n\n\n\nExperiências, dificuldades e descobertas ao longo da graduação, com reflexões sobre o desenvolvimento profissional.\n\n\n\nConceitos e aprendizados que merecem ser compartilhados por contribuírem para uma formação médica mais crítica e consciente.\n\nAprender medicina também é aprender a observar, questionar e cuidar."
-  },
-  {
-    "objectID": "internato.html#o-que-você-encontrará-aqui",
-    "href": "internato.html#o-que-você-encontrará-aqui",
-    "title": "O internato na prática",
-    "section": "",
-    "text": "Reflexões sobre situações clínicas, desafios da rotina hospitalar e conhecimentos que fazem diferença na formação médica.\n\n\n\nDiscussões sobre como organizar hipóteses diagnósticas, interpretar achados clínicos e compreender a tomada de decisão médica.\n\n\n\nExperiências, dificuldades e descobertas ao longo da graduação, com reflexões sobre o desenvolvimento profissional.\n\n\n\nConceitos e aprendizados que merecem ser compartilhados por contribuírem para uma formação médica mais crítica e consciente.\n\nAprender medicina também é aprender a observar, questionar e cuidar."
-  },
-  {
     "objectID": "fisiopatologia.html",
     "href": "fisiopatologia.html",
     "title": "Por trás da doença",
@@ -68,5 +26,117 @@
     "title": "Por trás da doença",
     "section": "",
     "text": "Explicações sobre os mecanismos envolvidos nas principais doenças, organizadas para facilitar a compreensão sem perder o rigor científico.\n\n\n\nInvestigações sobre a origem de sinais, sintomas e alterações laboratoriais, conectando os achados clínicos aos mecanismos que os produzem.\n\n\n\nRelações entre diferentes sistemas do organismo, mecanismos de doença e apresentações clínicas que ajudam a construir diagnósticos diferenciais.\n\n\n\nDiscussões fundamentadas na literatura científica, com referências para aprofundamento e atualização do conhecimento médico.\n\nQuando compreendemos o mecanismo, os achados clínicos deixam de ser fatos isolados e passam a fazer sentido."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Da teoria ao raciocínio clínico.",
+    "section": "",
+    "text": "CAMILO DIAZ · MEDICINA\n\n\n\n\nPreparação para a residência, raciocínio clínico e aprendizados do internato. Um espaço para conectar conhecimento científico, fisiopatologia e prática médica.\n\nEXPLORAR CONTEÚDOS ↓"
+  },
+  {
+    "objectID": "index.html#pilares",
+    "href": "index.html#pilares",
+    "title": "Da teoria ao raciocínio clínico.",
+    "section": "Explore por tema",
+    "text": "Explore por tema\n\n\n01 / RESIDÊNCIA\n\nRumo à residência\nRevisões de temas recorrentes, questões comentadas, diagnósticos diferenciais e condutas importantes para as provas.\nExplorar conteúdos →\n\n\n\n02 / INTERNATO\n\nO internato na prática\nAprendizados dos cenários clínicos, reflexões sobre a formação médica e experiências que ajudam a conectar teoria e prática.\nExplorar conteúdos →\n\n\n\n03 / FISIOPATOLOGIA\n\nPor trás da doença\nCuriosidades clínicas, mecanismos fisiopatológicos e explicações sobre como sintomas, sinais e doenças se relacionam.\nExplorar conteúdos →\n\n\n\n\n\nEstudar para compreender. Compreender para raciocinar melhor."
+  },
+  {
+    "objectID": "internato.html",
+    "href": "internato.html",
+    "title": "O internato na prática",
+    "section": "",
+    "text": "O internato é o momento em que o conhecimento teórico começa a ser colocado à prova diante de situações clínicas reais. Cada atendimento traz oportunidades para desenvolver o raciocínio clínico, aprimorar a comunicação e compreender melhor o cuidado ao paciente.\nEsta seção reúne aprendizados da formação médica, sempre com compromisso com a evidência científica, a ética e a privacidade dos pacientes.\n\n\n\n\nReflexões sobre situações clínicas, desafios da rotina hospitalar e conhecimentos que fazem diferença na formação médica.\n\n\nDiscussão de um caso observado durante o internato, com foco na avaliação vascular, nos diagnósticos diferenciais, no reconhecimento de infecção e nos cuidados locais da ferida.\nLeia o caso clínico completo →\n\n\n\n\nDiscussões sobre como organizar hipóteses diagnósticas, interpretar achados clínicos e compreender a tomada de decisão médica.\n\n\n\nExperiências, dificuldades e descobertas ao longo da graduação, com reflexões sobre o desenvolvimento profissional.\n\n\n\nConceitos e aprendizados que merecem ser compartilhados por contribuírem para uma formação médica mais crítica e consciente.\n\nAprender medicina também é aprender a observar, questionar e cuidar."
+  },
+  {
+    "objectID": "internato.html#o-que-você-encontrará-aqui",
+    "href": "internato.html#o-que-você-encontrará-aqui",
+    "title": "O internato na prática",
+    "section": "",
+    "text": "Reflexões sobre situações clínicas, desafios da rotina hospitalar e conhecimentos que fazem diferença na formação médica.\n\n\nDiscussão de um caso observado durante o internato, com foco na avaliação vascular, nos diagnósticos diferenciais, no reconhecimento de infecção e nos cuidados locais da ferida.\nLeia o caso clínico completo →\n\n\n\n\nDiscussões sobre como organizar hipóteses diagnósticas, interpretar achados clínicos e compreender a tomada de decisão médica.\n\n\n\nExperiências, dificuldades e descobertas ao longo da graduação, com reflexões sobre o desenvolvimento profissional.\n\n\n\nConceitos e aprendizados que merecem ser compartilhados por contribuírem para uma formação médica mais crítica e consciente.\n\nAprender medicina também é aprender a observar, questionar e cuidar."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "casos/ulceras-digitais.html",
+    "href": "casos/ulceras-digitais.html",
+    "title": "Úlceras digitais e necrose",
+    "section": "",
+    "text": "Durante o internato médico, a observação de lesões ulceradas e áreas de possível necrose nos dedos levanta uma questão importante: qual mecanismo está comprometendo a integridade e a viabilidade dos tecidos?\nA aparência da ferida é apenas o ponto de partida. Para compreender o caso, é necessário integrar a avaliação morfológica da lesão, a perfusão vascular, a possibilidade de infecção, a presença de neuropatia e os fatores sistêmicos que interferem na cicatrização.\nEste caso é apresentado com finalidade educacional, a partir de uma imagem clínica. Como não dispomos, nesta publicação, da história completa, dos exames complementares e do diagnóstico final, as hipóteses discutidas não devem ser interpretadas como diagnósticos confirmados do paciente.\n\n\nA fotografia documenta lesões ulceradas em múltiplos dedos, com áreas de coloração amarelada, regiões avermelhadas e alterações de coloração que podem corresponder a diferentes componentes do leito da ferida.\nA imagem, isoladamente, não permite determinar com segurança a profundidade das lesões, a viabilidade dos tecidos, a presença de infecção ou a causa subjacente.\nQuestão clínica: estamos diante de uma lesão predominantemente isquêmica, infecciosa, traumática ou decorrente da combinação de diferentes mecanismos?\nEssa distinção é fundamental, pois a escolha do tratamento depende da etiologia e da gravidade, e não apenas da aparência superficial da ferida.\n\n\n\nAspecto clínico das lesões digitais.\n\n\nFigura 1. Aspecto clínico das lesões digitais.\n\n\n\n\n\nA redução do fluxo sanguíneo pode comprometer a oferta de oxigênio e nutrientes, prejudicar a reparação tecidual e culminar em ulceração e necrose. A doença arterial periférica é especialmente importante em pessoas com diabetes, mas a possibilidade de isquemia não deve ser atribuída automaticamente à presença de uma ferida.\nA avaliação deve incluir história de dor em repouso, evolução da lesão, alterações de temperatura e coloração, palpação de pulsos e testes vasculares objetivos. Quando disponíveis e indicados, podem ser utilizados índice tornozelo-braquial, pressão digital, índice dedo-braquial e métodos de avaliação Doppler.\nEm casos de suspeita de isquemia ameaçadora do membro, a avaliação vascular não deve ser postergada.\n\n\n\nFeridas podem ser complicadas por infecção superficial ou profunda. A investigação considera purulência, eritema, calor, edema, dor, extensão do comprometimento e sinais sistêmicos. A ausência de dor não exclui infecção em pacientes com neuropatia.\nQuando houver suspeita de acometimento ósseo, devem ser considerados o exame da ferida, a avaliação clínica e, conforme o contexto, radiografia simples e ressonância magnética. A escolha dos exames depende da probabilidade clínica e dos achados iniciais.\nA colonização de uma ferida não equivale necessariamente a infecção. Antibióticos não devem ser utilizados apenas para promover a cicatrização de úlceras clinicamente não infectadas.\n\n\n\nA neuropatia periférica pode reduzir a sensibilidade protetora, permitindo que pressões, atritos ou pequenos traumatismos se repitam sem percepção adequada. Deformidades digitais e calçados inadequados podem aumentar a pressão sobre áreas específicas.\nPor isso, a investigação deve incluir sensibilidade protetora, deformidades, calosidades, distribuição das lesões e história de trauma.\n\n\n\nDependendo da história e do exame físico, também podem ser consideradas vasculites, fenômenos trombóticos, fenômenos embólicos, doenças autoimunes, lesões térmicas ou químicas e outras causas de comprometimento vascular ou tecidual.\nO diagnóstico deve ser orientado pelos achados clínicos e pelos exames pertinentes, evitando atribuir a lesão a uma causa única sem evidências suficientes.\n\n\n\n\nA integridade tecidual depende da perfusão adequada, da disponibilidade de oxigênio, da resposta imunológica, da integridade neurológica e da capacidade de reparação.\nNa isquemia, a redução da oferta de oxigênio compromete o metabolismo celular. Quando intensa ou prolongada, pode causar lesão irreversível e morte celular. A extensão do dano depende, entre outros fatores, da intensidade e da duração da redução do fluxo sanguíneo.\nNa neuropatia, a perda da sensibilidade protetora favorece microtraumas repetitivos. A pressão mecânica persistente pode contribuir para a ruptura da pele e impedir a cicatrização.\nQuando há infecção, a resposta inflamatória e a destruição tecidual podem agravar a lesão. Isquemia e infecção podem coexistir, aumentando a complexidade do tratamento.\nImplicação clínica: tratar somente a superfície da ferida, sem abordar isquemia, infecção ou pressão mecânica, pode ser insuficiente para alcançar a cicatrização.\n\n\n\nA abordagem deve documentar os seguintes elementos:\n\nHistória clínica: diabetes, duração da doença, controle glicêmico, doença arterial periférica, neuropatia, tabagismo, doença renal, trauma e evolução das lesões.\nExame da ferida: localização, comprimento, largura, profundidade, leito, bordas, exsudato e estruturas expostas.\nAvaliação vascular: temperatura, coloração, pulsos, enchimento capilar e testes objetivos de perfusão conforme a indicação.\nAvaliação neurológica: sensibilidade protetora e presença de deformidades.\nInvestigação de infecção: sinais locais e sistêmicos, extensão do comprometimento e suspeita de envolvimento profundo.\nExames complementares: selecionados conforme as hipóteses diagnósticas, a gravidade e os achados do exame físico.\n\nA avaliação deve ser repetida ao longo do acompanhamento, permitindo identificar progressão, resposta ao tratamento e necessidade de mudança de conduta.\n\n\n\nAs recomendações da International Working Group on the Diabetic Foot (IWGDF) destacam que o cuidado local deve integrar uma abordagem multidisciplinar. Mesmo uma cobertura apropriada não compensa isquemia não tratada, infecção inadequadamente controlada ou trauma persistente.\n\n\nA limpeza deve remover resíduos e permitir a avaliação adequada do leito da ferida. Os pés devem ser lavados, mas não deixados de molho, pois a maceração pode comprometer a pele.\nA cobertura deve ser escolhida conforme a profundidade, a quantidade de exsudato e as condições do tecido. Em geral, busca-se controlar o excesso de umidade e manter um ambiente favorável à cicatrização, evitando maceração da pele adjacente.\n\n\n\nO desbridamento pode remover tecido desvitalizado e calosidade quando indicado, favorecendo a avaliação da ferida e o manejo local. A técnica e a frequência devem ser definidas por profissional capacitado, conforme a condição clínica.\nAtenção à isquemia: na presença de necrose seca e suspeita de perfusão gravemente comprometida, é necessário avaliar a condição vascular antes de decidir pela remoção do tecido. Nem toda área escurecida deve ser desbridada de maneira indiscriminada.\n\n\n\nReduzir a pressão e o trauma repetitivo é parte essencial do tratamento das úlceras relacionadas ao diabetes. O método deve considerar a localização da ferida, a biomecânica, a capacidade de marcha e a presença de infecção ou isquemia.\nEm lesões não plantares, como algumas úlceras digitais, podem ser necessários dispositivos removíveis, adaptações de calçados, órteses ou outras estratégias específicas. A escolha deve ser individualizada.\n\n\n\nAntibióticos sistêmicos são indicados quando há infecção clínica, de acordo com a gravidade, os agentes prováveis, os resultados microbiológicos quando indicados e os protocolos locais.\nAntibióticos tópicos ou coberturas antimicrobianas não devem ser empregados indiscriminadamente com o único objetivo de acelerar a cicatrização de uma úlcera não infectada.\nIntervenções avançadas podem ser consideradas em casos selecionados que não evoluem com o cuidado padrão adequadamente realizado. Elas não substituem o tratamento da infecção, a correção da isquemia nem o alívio de pressão.\n\n\n\n\nNecrose progressiva, gangrena, suspeita de isquemia importante, infecção profunda, abscesso, exposição óssea ou sinais sistêmicos exigem avaliação médica urgente.\nA associação entre infecção e isquemia demanda atenção especial, pois pode aumentar o risco de perda tecidual e amputação. A abordagem pode exigir participação de equipes de cirurgia vascular, cirurgia, infectologia, endocrinologia e profissionais especializados no cuidado de feridas, conforme os achados.\n\n\n\nEste caso reforça três princípios do raciocínio clínico:\n\nA aparência não define a etiologia. Lesões semelhantes podem resultar de mecanismos diferentes, que precisam ser investigados.\nO cuidado local faz parte de uma estratégia maior. Limpeza, cobertura e desbridamento, quando indicados, devem estar associados à avaliação da perfusão, ao controle de infecção e ao alívio de pressão.\nA gravidade precisa ser reconhecida precocemente. Suspeita de isquemia ou infecção profunda muda a prioridade e a urgência da abordagem.\n\nA principal pergunta diante de uma úlcera digital não é apenas qual curativo utilizar, mas qual processo está impedindo a cicatrização e ameaçando a viabilidade do tecido?\n\n\n\n\n\nSchaper NC, van Netten JJ, Apelqvist J, et al. Practical guidelines on the prevention and management of diabetes-related foot disease (IWGDF 2023 update). Diabetes/Metabolism Research and Reviews. 2024. Texto completo.\nChen P, Campillo Vilorio N, Dhatariya K, et al. Guidelines on interventions to enhance healing of foot ulcers in people with diabetes (IWGDF 2023 update). Diabetes/Metabolism Research and Reviews. 2024;40(3):e3644. DOI: 10.1002/dmrr.3644.\nSenneville É, Albalawi Z, van Asten SA, et al. IWGDF/IDSA Guidelines on the Diagnosis and Treatment of Diabetes-related Foot Infections. Clinical Infectious Diseases. 2023. Texto completo.\nInternational Working Group on the Diabetic Foot. IWGDF Guidelines, 2023 update. Diretrizes e documentos oficiais.\nSociedade Brasileira de Angiologia e de Cirurgia Vascular. Diretrizes da Sociedade Brasileira de Angiologia e de Cirurgia Vascular sobre o pé diabético. 2023. DOI: 10.1590/1677-5449.202300872.\n\nConteúdo educacional destinado à discussão de conceitos clínicos. Não substitui avaliação individual, protocolos institucionais ou decisão da equipe assistencial."
+  },
+  {
+    "objectID": "casos/ulceras-digitais.html#apresentação-clínica",
+    "href": "casos/ulceras-digitais.html#apresentação-clínica",
+    "title": "Úlceras digitais e necrose",
+    "section": "",
+    "text": "A fotografia documenta lesões ulceradas em múltiplos dedos, com áreas de coloração amarelada, regiões avermelhadas e alterações de coloração que podem corresponder a diferentes componentes do leito da ferida.\nA imagem, isoladamente, não permite determinar com segurança a profundidade das lesões, a viabilidade dos tecidos, a presença de infecção ou a causa subjacente.\nQuestão clínica: estamos diante de uma lesão predominantemente isquêmica, infecciosa, traumática ou decorrente da combinação de diferentes mecanismos?\nEssa distinção é fundamental, pois a escolha do tratamento depende da etiologia e da gravidade, e não apenas da aparência superficial da ferida.\n\n\n\nAspecto clínico das lesões digitais.\n\n\nFigura 1. Aspecto clínico das lesões digitais."
+  },
+  {
+    "objectID": "casos/ulceras-digitais.html#diagnóstico-diferencial",
+    "href": "casos/ulceras-digitais.html#diagnóstico-diferencial",
+    "title": "Úlceras digitais e necrose",
+    "section": "",
+    "text": "A redução do fluxo sanguíneo pode comprometer a oferta de oxigênio e nutrientes, prejudicar a reparação tecidual e culminar em ulceração e necrose. A doença arterial periférica é especialmente importante em pessoas com diabetes, mas a possibilidade de isquemia não deve ser atribuída automaticamente à presença de uma ferida.\nA avaliação deve incluir história de dor em repouso, evolução da lesão, alterações de temperatura e coloração, palpação de pulsos e testes vasculares objetivos. Quando disponíveis e indicados, podem ser utilizados índice tornozelo-braquial, pressão digital, índice dedo-braquial e métodos de avaliação Doppler.\nEm casos de suspeita de isquemia ameaçadora do membro, a avaliação vascular não deve ser postergada.\n\n\n\nFeridas podem ser complicadas por infecção superficial ou profunda. A investigação considera purulência, eritema, calor, edema, dor, extensão do comprometimento e sinais sistêmicos. A ausência de dor não exclui infecção em pacientes com neuropatia.\nQuando houver suspeita de acometimento ósseo, devem ser considerados o exame da ferida, a avaliação clínica e, conforme o contexto, radiografia simples e ressonância magnética. A escolha dos exames depende da probabilidade clínica e dos achados iniciais.\nA colonização de uma ferida não equivale necessariamente a infecção. Antibióticos não devem ser utilizados apenas para promover a cicatrização de úlceras clinicamente não infectadas.\n\n\n\nA neuropatia periférica pode reduzir a sensibilidade protetora, permitindo que pressões, atritos ou pequenos traumatismos se repitam sem percepção adequada. Deformidades digitais e calçados inadequados podem aumentar a pressão sobre áreas específicas.\nPor isso, a investigação deve incluir sensibilidade protetora, deformidades, calosidades, distribuição das lesões e história de trauma.\n\n\n\nDependendo da história e do exame físico, também podem ser consideradas vasculites, fenômenos trombóticos, fenômenos embólicos, doenças autoimunes, lesões térmicas ou químicas e outras causas de comprometimento vascular ou tecidual.\nO diagnóstico deve ser orientado pelos achados clínicos e pelos exames pertinentes, evitando atribuir a lesão a uma causa única sem evidências suficientes."
+  },
+  {
+    "objectID": "casos/ulceras-digitais.html#fisiopatologia-como-o-tecido-perde-viabilidade",
+    "href": "casos/ulceras-digitais.html#fisiopatologia-como-o-tecido-perde-viabilidade",
+    "title": "Úlceras digitais e necrose",
+    "section": "",
+    "text": "A integridade tecidual depende da perfusão adequada, da disponibilidade de oxigênio, da resposta imunológica, da integridade neurológica e da capacidade de reparação.\nNa isquemia, a redução da oferta de oxigênio compromete o metabolismo celular. Quando intensa ou prolongada, pode causar lesão irreversível e morte celular. A extensão do dano depende, entre outros fatores, da intensidade e da duração da redução do fluxo sanguíneo.\nNa neuropatia, a perda da sensibilidade protetora favorece microtraumas repetitivos. A pressão mecânica persistente pode contribuir para a ruptura da pele e impedir a cicatrização.\nQuando há infecção, a resposta inflamatória e a destruição tecidual podem agravar a lesão. Isquemia e infecção podem coexistir, aumentando a complexidade do tratamento.\nImplicação clínica: tratar somente a superfície da ferida, sem abordar isquemia, infecção ou pressão mecânica, pode ser insuficiente para alcançar a cicatrização."
+  },
+  {
+    "objectID": "casos/ulceras-digitais.html#avaliação-clínica-sistemática",
+    "href": "casos/ulceras-digitais.html#avaliação-clínica-sistemática",
+    "title": "Úlceras digitais e necrose",
+    "section": "",
+    "text": "A abordagem deve documentar os seguintes elementos:\n\nHistória clínica: diabetes, duração da doença, controle glicêmico, doença arterial periférica, neuropatia, tabagismo, doença renal, trauma e evolução das lesões.\nExame da ferida: localização, comprimento, largura, profundidade, leito, bordas, exsudato e estruturas expostas.\nAvaliação vascular: temperatura, coloração, pulsos, enchimento capilar e testes objetivos de perfusão conforme a indicação.\nAvaliação neurológica: sensibilidade protetora e presença de deformidades.\nInvestigação de infecção: sinais locais e sistêmicos, extensão do comprometimento e suspeita de envolvimento profundo.\nExames complementares: selecionados conforme as hipóteses diagnósticas, a gravidade e os achados do exame físico.\n\nA avaliação deve ser repetida ao longo do acompanhamento, permitindo identificar progressão, resposta ao tratamento e necessidade de mudança de conduta."
+  },
+  {
+    "objectID": "casos/ulceras-digitais.html#cuidados-locais-das-úlceras",
+    "href": "casos/ulceras-digitais.html#cuidados-locais-das-úlceras",
+    "title": "Úlceras digitais e necrose",
+    "section": "",
+    "text": "As recomendações da International Working Group on the Diabetic Foot (IWGDF) destacam que o cuidado local deve integrar uma abordagem multidisciplinar. Mesmo uma cobertura apropriada não compensa isquemia não tratada, infecção inadequadamente controlada ou trauma persistente.\n\n\nA limpeza deve remover resíduos e permitir a avaliação adequada do leito da ferida. Os pés devem ser lavados, mas não deixados de molho, pois a maceração pode comprometer a pele.\nA cobertura deve ser escolhida conforme a profundidade, a quantidade de exsudato e as condições do tecido. Em geral, busca-se controlar o excesso de umidade e manter um ambiente favorável à cicatrização, evitando maceração da pele adjacente.\n\n\n\nO desbridamento pode remover tecido desvitalizado e calosidade quando indicado, favorecendo a avaliação da ferida e o manejo local. A técnica e a frequência devem ser definidas por profissional capacitado, conforme a condição clínica.\nAtenção à isquemia: na presença de necrose seca e suspeita de perfusão gravemente comprometida, é necessário avaliar a condição vascular antes de decidir pela remoção do tecido. Nem toda área escurecida deve ser desbridada de maneira indiscriminada.\n\n\n\nReduzir a pressão e o trauma repetitivo é parte essencial do tratamento das úlceras relacionadas ao diabetes. O método deve considerar a localização da ferida, a biomecânica, a capacidade de marcha e a presença de infecção ou isquemia.\nEm lesões não plantares, como algumas úlceras digitais, podem ser necessários dispositivos removíveis, adaptações de calçados, órteses ou outras estratégias específicas. A escolha deve ser individualizada.\n\n\n\nAntibióticos sistêmicos são indicados quando há infecção clínica, de acordo com a gravidade, os agentes prováveis, os resultados microbiológicos quando indicados e os protocolos locais.\nAntibióticos tópicos ou coberturas antimicrobianas não devem ser empregados indiscriminadamente com o único objetivo de acelerar a cicatrização de uma úlcera não infectada.\nIntervenções avançadas podem ser consideradas em casos selecionados que não evoluem com o cuidado padrão adequadamente realizado. Elas não substituem o tratamento da infecção, a correção da isquemia nem o alívio de pressão."
+  },
+  {
+    "objectID": "casos/ulceras-digitais.html#sinais-de-gravidade-e-encaminhamento",
+    "href": "casos/ulceras-digitais.html#sinais-de-gravidade-e-encaminhamento",
+    "title": "Úlceras digitais e necrose",
+    "section": "",
+    "text": "Necrose progressiva, gangrena, suspeita de isquemia importante, infecção profunda, abscesso, exposição óssea ou sinais sistêmicos exigem avaliação médica urgente.\nA associação entre infecção e isquemia demanda atenção especial, pois pode aumentar o risco de perda tecidual e amputação. A abordagem pode exigir participação de equipes de cirurgia vascular, cirurgia, infectologia, endocrinologia e profissionais especializados no cuidado de feridas, conforme os achados."
+  },
+  {
+    "objectID": "casos/ulceras-digitais.html#aprendizados-do-caso",
+    "href": "casos/ulceras-digitais.html#aprendizados-do-caso",
+    "title": "Úlceras digitais e necrose",
+    "section": "",
+    "text": "Este caso reforça três princípios do raciocínio clínico:\n\nA aparência não define a etiologia. Lesões semelhantes podem resultar de mecanismos diferentes, que precisam ser investigados.\nO cuidado local faz parte de uma estratégia maior. Limpeza, cobertura e desbridamento, quando indicados, devem estar associados à avaliação da perfusão, ao controle de infecção e ao alívio de pressão.\nA gravidade precisa ser reconhecida precocemente. Suspeita de isquemia ou infecção profunda muda a prioridade e a urgência da abordagem.\n\nA principal pergunta diante de uma úlcera digital não é apenas qual curativo utilizar, mas qual processo está impedindo a cicatrização e ameaçando a viabilidade do tecido?"
+  },
+  {
+    "objectID": "casos/ulceras-digitais.html#referências",
+    "href": "casos/ulceras-digitais.html#referências",
+    "title": "Úlceras digitais e necrose",
+    "section": "",
+    "text": "Schaper NC, van Netten JJ, Apelqvist J, et al. Practical guidelines on the prevention and management of diabetes-related foot disease (IWGDF 2023 update). Diabetes/Metabolism Research and Reviews. 2024. Texto completo.\nChen P, Campillo Vilorio N, Dhatariya K, et al. Guidelines on interventions to enhance healing of foot ulcers in people with diabetes (IWGDF 2023 update). Diabetes/Metabolism Research and Reviews. 2024;40(3):e3644. DOI: 10.1002/dmrr.3644.\nSenneville É, Albalawi Z, van Asten SA, et al. IWGDF/IDSA Guidelines on the Diagnosis and Treatment of Diabetes-related Foot Infections. Clinical Infectious Diseases. 2023. Texto completo.\nInternational Working Group on the Diabetic Foot. IWGDF Guidelines, 2023 update. Diretrizes e documentos oficiais.\nSociedade Brasileira de Angiologia e de Cirurgia Vascular. Diretrizes da Sociedade Brasileira de Angiologia e de Cirurgia Vascular sobre o pé diabético. 2023. DOI: 10.1590/1677-5449.202300872.\n\nConteúdo educacional destinado à discussão de conceitos clínicos. Não substitui avaliação individual, protocolos institucionais ou decisão da equipe assistencial."
+  },
+  {
+    "objectID": "casos/ulceras-digitais.html#casos-clínicos-comentados",
+    "href": "casos/ulceras-digitais.html#casos-clínicos-comentados",
+    "title": "Úlceras digitais e necrose",
+    "section": "",
+    "text": "Discussão de um caso observado no internato, com foco em diagnóstico diferencial, avaliação vascular, infecção e cuidados locais das feridas.\nLeia o caso clínico →"
+  },
+  {
+    "objectID": "internato.html#casos-clínicos-comentados",
+    "href": "internato.html#casos-clínicos-comentados",
+    "title": "O internato na prática",
+    "section": "",
+    "text": "Discussão de um caso observado no internato, com foco em diagnóstico diferencial, avaliação vascular, infecção e cuidados locais das feridas.\nLeia o caso clínico →"
   }
 ]
