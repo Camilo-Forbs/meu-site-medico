@@ -144,6 +144,11 @@ ul.task-list li input[type="checkbox"] {
 <section id="aprendizados-do-internato" class="level3">
 <h3 class="anchored" data-anchor-id="aprendizados-do-internato">Aprendizados do internato</h3>
 <p>Reflexões sobre situações clínicas, desafios da rotina hospitalar e conhecimentos que fazem diferença na formação médica.</p>
+<section id="caso-clínico-001-úlceras-digitais-e-necrose" class="level4">
+<h4 class="anchored" data-anchor-id="caso-clínico-001-úlceras-digitais-e-necrose">Caso clínico 001 — Úlceras digitais e necrose</h4>
+<p>Discussão de um caso observado durante o internato, com foco na avaliação vascular, nos diagnósticos diferenciais, no reconhecimento de infecção e nos cuidados locais da ferida.</p>
+<p><a href="./casos/ulceras-digitais.html">Leia o caso clínico completo →</a></p>
+</section>
 </section>
 <section id="raciocínio-clínico-aplicado" class="level3">
 <h3 class="anchored" data-anchor-id="raciocínio-clínico-aplicado">Raciocínio clínico aplicado</h3>
@@ -238,7 +243,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/Camilo-Forbs\.github\.io\/meu-site-medico\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
