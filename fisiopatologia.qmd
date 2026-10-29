@@ -1,0 +1,32 @@
+---
+title: "Por trás da doença"
+subtitle: "Fisiopatologia, mecanismos e conexões clínicas."
+---
+
+# Entender o mecanismo muda a forma de enxergar a doença.
+
+Sinais e sintomas não aparecem por acaso. Por trás de cada manifestação clínica existem mecanismos fisiopatológicos que ajudam a explicar o que está acontecendo no organismo.
+
+Esta seção explora as conexões entre mecanismos moleculares, alterações orgânicas e manifestações clínicas, aproximando a ciência do raciocínio médico.
+
+## O que você encontrará aqui
+
+### Fisiopatologia descomplicada
+
+Explicações sobre os mecanismos envolvidos nas principais doenças, organizadas para facilitar a compreensão sem perder o rigor científico.
+
+### Por que isso acontece?
+
+Investigações sobre a origem de sinais, sintomas e alterações laboratoriais, conectando os achados clínicos aos mecanismos que os produzem.
+
+### Conexões clínicas
+
+Relações entre diferentes sistemas do organismo, mecanismos de doença e apresentações clínicas que ajudam a construir diagnósticos diferenciais.
+
+### Ciência aplicada à medicina
+
+Discussões fundamentadas na literatura científica, com referências para aprofundamento e atualização do conhecimento médico.
+
+---
+
+*Quando compreendemos o mecanismo, os achados clínicos deixam de ser fatos isolados e passam a fazer sentido.*

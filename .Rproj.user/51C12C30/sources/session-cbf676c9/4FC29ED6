@@ -1,0 +1,31 @@
+{
+    "id": "4FC29ED6",
+    "path": "~/Downloads/Website/meu-site-medico/residencia.qmd",
+    "project_path": "residencia.qmd",
+    "type": "quarto_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1793237434604.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "cursorPosition": "8,32",
+        "scrollLine": "0",
+        "rmdVisualModeLocation": "1120:481"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1793291531,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1793291531958,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,68 @@
+
+---
+title: ""
+page-layout: full
+toc: false
+---
+
+::: {.hero}
+
+<p class="hero-eyebrow">CAMILO DIAZ · MEDICINA</p>
+
+# Da teoria ao raciocínio clínico.
+
+<p class="hero-description">
+Preparação para a residência, raciocínio clínico e aprendizados do
+internato. Um espaço para conectar conhecimento científico, fisiopatologia
+e prática médica.
+</p>
+
+<a href="#pilares" class="hero-link">EXPLORAR CONTEÚDOS ↓</a>
+
+:::
+
+---
+
+## Explore por tema {#pilares}
+
+::: {.content-grid}
+
+::: {.content-card}
+<span class="card-number">01 / RESIDÊNCIA</span>
+
+### Rumo à residência
+
+Revisões de temas recorrentes, questões comentadas, diagnósticos diferenciais e condutas importantes para as provas.
+
+[Explorar conteúdos →](residencia.qmd){.card-action}
+:::
+
+::: {.content-card}
+<span class="card-number">02 / INTERNATO</span>
+
+### O internato na prática
+
+Aprendizados dos cenários clínicos, reflexões sobre a formação médica e experiências que ajudam a conectar teoria e prática.
+
+[Explorar conteúdos →](internato.qmd){.card-action}
+:::
+
+::: {.content-card}
+<span class="card-number">03 / FISIOPATOLOGIA</span>
+
+### Por trás da doença
+
+Curiosidades clínicas, mecanismos fisiopatológicos e explicações sobre como sintomas, sinais e doenças se relacionam.
+
+[Explorar conteúdos →](fisiopatologia.qmd){.card-action}
+:::
+
+:::
+
+---
+
+::: {.closing-note}
+
+Estudar para compreender. Compreender para raciocinar melhor.
+
+:::
