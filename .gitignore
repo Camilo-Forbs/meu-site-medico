@@ -6,3 +6,6 @@
 /_site/
 .DS_Store
 .Rhistory
+
+# Saída do Quarto: gerada pelo GitHub Actions na publicação
+/docs/

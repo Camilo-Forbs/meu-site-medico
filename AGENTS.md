@@ -1,6 +1,7 @@
 # AGENTS.md — meu-site-medico
 
-Site Quarto publicado pelo GitHub Pages a partir de `main` → `/docs`.
+Site Quarto publicado pelo GitHub Actions (`.github/workflows/publicar.yml`): cada push em `main`
+renderiza e publica no GitHub Pages (fonte do Pages: "GitHub Actions"). Outras branches só renderizam (teste).
 Qualquer merge em `main` publica. Nada vai para `main` sem autorização explícita do Camilo.
 
 ## Caminhos
@@ -37,14 +38,16 @@ Qualquer merge em `main` publica. Nada vai para `main` sem autorização explíc
 python3 scripts/importar_erros.py --simular          # relatório, não grava
 python3 scripts/importar_erros.py                    # cria só os <id>.md novos
 python3 scripts/importar_erros.py --atualizar <id>   # regrava um registro de propósito
-/Applications/RStudio.app/Contents/Resources/app/quarto/bin/quarto render   # gera docs/
+/Applications/RStudio.app/Contents/Resources/app/quarto/bin/quarto render   # prévia local em docs/ (não versionado)
 ```
 Para testar sem tocar em `docs/` e `.quarto/`, copie o projeto para uma pasta temporária e use `render --output-dir <tmp>`.
 
 ## Regras
 - Conversão JSON → Markdown é feita só pelo importador. Não usar IA para isso nem ler os JSONs à mão.
 - CONFLITO no relatório: investigar antes de usar `--atualizar`. Nunca apagar `<id>.md` para "resolver".
-- Sempre `render` do projeto inteiro (o menu fica igual em todas as páginas). Não editar `docs/` à mão.
+- `docs/` não é versionado: o GitHub gera o site. Para conferir antes de publicar, renderize localmente
+  (projeto inteiro) ou envie uma branch e veja a execução em Actions. Depois do push em `main`, conferir se o
+  workflow terminou com sucesso (`gh run list --branch main --limit 1`).
 - O site não depende do R para renderizar; não adicionar blocos de código R sem necessidade.
 - Commit, push, PR, merge e publicação só com autorização. Nunca usar force push.
 - Antes de trabalhar: `git fetch` e conferir `git status -sb`. Se `main` estiver atrás, só avançar com `git merge --ff-only`.
