@@ -21,6 +21,7 @@ listing:
   filter-ui: true
   table-hover: true
   page-size: 30
+include-after-body: ../_filtro-sem-acento.html
 ---
 
 [← Lembrar para a prova](../index.qmd)

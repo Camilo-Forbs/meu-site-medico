@@ -1,0 +1,27 @@
+<script>
+// Filtro da listagem sem diferenciar acentos nem maiúsculas ("reticulocitos" encontra "Reticulócitos").
+// Intercepta o campo "Filtrar" do Quarto e usa a busca do list.js com uma comparação normalizada.
+(function () {
+  const norm = (s) => (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  function filtrar(input) {
+    const id = input.closest(".quarto-listing")?.id;
+    const lista = id && window["quarto-listings"] && window["quarto-listings"][id];
+    if (!lista) return false;
+    const termo = norm(input.value).trim();
+    lista.search(input.value, (_valor, _colunas) => {
+      for (const item of lista.items) {
+        item.found = termo === "" || norm(item.elm.textContent).includes(termo);
+      }
+    });
+    return true;
+  }
+  ["keyup", "input", "search"].forEach((tipo) => {
+    document.addEventListener(tipo, (ev) => {
+      const input = ev.target;
+      if (!(input instanceof HTMLInputElement) || !input.classList.contains("search")) return;
+      if (!input.closest(".quarto-listing")) return;
+      if (filtrar(input)) ev.stopPropagation(); // impede o filtro padrão (sensível a acentos)
+    }, true);
+  });
+})();
+</script>

@@ -8,6 +8,11 @@ project:
 
 website:
   title: "Camilo André Viana Diaz | Medicina"
+  site-url: "https://camilo-forbs.github.io/meu-site-medico/"
+  description: "Preparação para a residência, raciocínio clínico e aprendizados do internato."
+  favicon: favicon.svg
+  open-graph: true
+  twitter-card: true
   navbar:
     background: "#E8E0D3"
     foreground: "#171817"

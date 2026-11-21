@@ -13,6 +13,7 @@ Qualquer merge em `main` publica. Nada vai para `main` sem autorização explíc
 - Quarto: `/Applications/RStudio.app/Contents/Resources/app/quarto/bin/quarto` (não está no PATH)
 
 ## Estrutura (uma pasta por pilar)
+- Raiz: `404.qmd` (página de erro do Pages), `favicon.svg`; `site-url`, descrição, Open Graph e sitemap em `_quarto.yml`.
 - `index.qmd`, `about.qmd` na raiz. Menu em `_quarto.yml` (Residência é submenu).
 - `residencia/`: `index.qmd`, `questoes/` (questões comentadas) e `lembrar/` (Lembrar para a prova).
 - `internato/`: `index.qmd` e `casos/`. `fisiopatologia/`: `index.qmd`.
@@ -25,6 +26,8 @@ Qualquer merge em `main` publica. Nada vai para `main` sem autorização explíc
   + página da matéria (copiar `residencia/lembrar/clinica-medica/hematologia.qmd`) + card em `residencia/lembrar/index.qmd`.
 - `ids_dir_antigo` no mapa: os 7 erros publicados antes da mudança de pasta (recebem aliases). Não acrescentar IDs novos.
 - Estilos da seção: `residencia/lembrar/lembrar.css` (cores em `styles.css` e `_brand.yml`).
+- Filtro sem acento: `residencia/lembrar/_filtro-sem-acento.html`, incluído por `include-after-body` em cada página de matéria
+  (já vem ao copiar `hematologia.qmd`; ajustar o caminho relativo se a pasta for diferente).
 
 ## Casos clínicos e questões comentadas (listagens automáticas)
 - Caso novo: criar `internato/casos/<nome>.qmd` com `numero`, `chamada` e `resumo` no cabeçalho. Aparece sozinho em `internato/index.qmd`.

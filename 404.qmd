@@ -1,0 +1,9 @@
+---
+title: "Página não encontrada"
+---
+
+# Página não encontrada.
+
+O endereço pode ter mudado ou não existir mais. Use o menu ou a busca para encontrar o conteúdo.
+
+[Voltar ao início →](index.qmd)
