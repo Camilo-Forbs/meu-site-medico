@@ -1,0 +1,2 @@
+# Vale para cada erro de Hematologia (arquivos <id>.md gerados pelo importador)
+include-after-body: _voltar.html

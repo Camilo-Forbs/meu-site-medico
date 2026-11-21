@@ -1,0 +1,26 @@
+---
+title: "Hematologia"
+subtitle: "Clínica Médica · Lembrar para a prova"
+listing:
+  contents: "hematologia/*.md"
+  type: table
+  fields: [date, title, tema, banca, ano, minha_resposta, gabarito]
+  field-display-names:
+    date: "Data"
+    title: "Resumo"
+    tema: "Tema"
+    banca: "Banca"
+    ano: "Ano"
+    minha_resposta: "Você"
+    gabarito: "Gabarito"
+  date-format: "DD/MM/YYYY"
+  sort: ["date desc", "title"]
+  sort-ui: [date, title, banca, ano]
+  filter-ui: true
+  table-hover: true
+  page-size: 30
+---
+
+[← Lembrar para a prova](../../lembrar-para-a-prova.qmd)
+
+Use o campo **Filtrar** para buscar por tema, banca ou palavra do título. Cada linha abre o resumo completo da questão.

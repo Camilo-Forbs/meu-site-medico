@@ -1,6 +1,10 @@
 
 project:
   type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "lembrar/**/*.md"
 
 website:
   title: "Camilo André Viana Diaz | Medicina"
@@ -10,13 +14,23 @@ website:
         text: Início
       - href: about.qmd
         text: Sobre mim
+      - href: residencia.qmd
+        text: Residência
+      - href: internato.qmd
+        text: Internato
+      - href: fisiopatologia.qmd
+        text: Fisiopatologia
+      - href: lembrar-para-a-prova.qmd
+        text: Lembrar para a prova
 
 format:
   html:
     theme:
       - cosmo
       - brand
-    css: styles.css
+    css:
+      - styles.css
+      - lembrar/lembrar.css
     toc: false
 
 editor: source

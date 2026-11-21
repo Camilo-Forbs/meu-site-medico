@@ -1,0 +1,48 @@
+---
+title: "Lembrar para a prova"
+subtitle: "Erros comentados, organizados por grande área e matéria."
+lang: pt-BR
+listing:
+  id: recentes
+  contents: "lembrar/**/*.md"
+  type: table
+  fields: [date, title, banca, gabarito]
+  field-display-names:
+    date: "Data"
+    title: "Tema"
+    banca: "Banca"
+    gabarito: "Gabarito"
+  date-format: "DD/MM/YYYY"
+  sort: ["date desc", "title"]
+  max-items: 5
+  table-hover: true
+  filter-ui: false
+  sort-ui: false
+---
+
+# Os erros que valem uma segunda leitura.
+
+Cada questão errada vira um resumo curto: o conceito cobrado, a pegadinha e o que precisa ficar na memória no dia da prova.
+
+## Grandes áreas
+
+### Clínica Médica
+
+::: {.content-grid}
+
+::: {.content-card}
+<span class="card-number">CLÍNICA MÉDICA</span>
+
+### Hematologia
+
+Anemias, reticulócitos, esfregaço periférico e as associações entre achado laboratorial e causa.
+
+[Ver os erros →](lembrar/clinica-medica/hematologia.qmd){.card-action}
+:::
+
+:::
+
+## Registros mais recentes
+
+::: {#recentes}
+:::
