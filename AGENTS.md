@@ -4,8 +4,10 @@ Site Quarto publicado pelo GitHub Pages a partir de `main` → `/docs`.
 Qualquer merge em `main` publica. Nada vai para `main` sem autorização explícita do Camilo.
 
 ## Caminhos
-- Site (este repositório): `/Users/forbs/Downloads/Website/meu-site-medico-teste`
-- Pasta original (não mexer, não fazer `pull`): `/Users/forbs/Downloads/Website/meu-site-medico`
+- Site (pasta de trabalho, este repositório): `/Users/forbs/Downloads/Website/meu-site-medico`
+- Cópia de teste (só histórico; não usar para novos trabalhos): `/Users/forbs/Downloads/Website/meu-site-medico-teste`
+- Backups (não apagar sem autorização): `meu-site-medico-backup-20261120` e `meu-site-medico-backup-20261120-pre-publicacao`, ao lado da pasta do site
+- `git stash list`: `stash@{0}` guarda as versões locais anteriores à sincronização de 20/11/2026. Não descartar.
 - Fonte dos erros: `/Users/forbs/Downloads/estrategia-med/state/materials/<id>.json` (somente leitura)
 - Quarto: `/Applications/RStudio.app/Contents/Resources/app/quarto/bin/quarto` (não está no PATH)
 
@@ -29,5 +31,6 @@ Para testar sem tocar em `docs/` e `.quarto/`, copie o projeto para uma pasta te
 - CONFLITO no relatório: investigar antes de usar `--atualizar`. Nunca apagar `<id>.md` para "resolver".
 - Sempre `render` do projeto inteiro (o menu fica igual em todas as páginas). Não editar `docs/` à mão.
 - `about.qmd` tem um bloco R: o render completo precisa do R instalado.
-- Commit, push, PR, merge e publicação só com autorização.
+- Commit, push, PR, merge e publicação só com autorização. Nunca usar force push.
+- Antes de trabalhar: `git fetch` e conferir `git status -sb`. Se `main` estiver atrás, só avançar com `git merge --ff-only`.
 - Pendente (tarefa separada): tirar `.quarto/` e `.Rproj.user/` do controle de versão.
