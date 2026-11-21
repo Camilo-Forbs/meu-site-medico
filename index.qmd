@@ -1,6 +1,11 @@
 
 ---
 title: ""
+description: "Preparação para a residência, raciocínio clínico e aprendizados do internato."
+open-graph:
+  title: "Camilo André Viana Diaz | Medicina"
+twitter-card:
+  title: "Camilo André Viana Diaz | Medicina"
 page-layout: full
 toc: false
 ---
