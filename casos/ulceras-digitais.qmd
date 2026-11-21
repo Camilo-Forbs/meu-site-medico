@@ -3,6 +3,10 @@ title: "Úlceras digitais e necrose"
 subtitle: "Um caso clínico comentado do internato"
 description: "Discussão clínica sobre úlceras digitais, necrose, diagnóstico diferencial e cuidados locais das feridas."
 date: 2026-10-29
+# Usados pela listagem automática em internato.qmd
+numero: "001"
+chamada: "Úlceras digitais e necrose"
+resumo: "Discussão de um caso observado durante o internato, com foco na avaliação vascular, nos diagnósticos diferenciais, no reconhecimento de infecção e nos cuidados locais da ferida."
 lang: pt-BR
 format:
   html:

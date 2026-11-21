@@ -15,7 +15,14 @@ Qualquer merge em `main` publica. Nada vai para `main` sem autorização explíc
 - Erros: `lembrar/<area>/<materia>/<id>.md`, gerados pelo importador. Não editar à mão.
 - Especialidade → pasta: `lembrar/_mapa.json`. Especialidade nova = nova entrada no mapa
   + página da matéria (copiar `lembrar/clinica-medica/hematologia.qmd`) + card em `lembrar-para-a-prova.qmd`.
-- Estilos da seção: `lembrar/lembrar.css` (cores em `styles.css`).
+- Estilos da seção: `lembrar/lembrar.css` (cores em `styles.css` e `_brand.yml`).
+
+## Casos clínicos e questões comentadas (listagens automáticas)
+- Caso novo: criar `casos/<nome>.qmd` com `numero`, `chamada` e `resumo` no cabeçalho. Aparece sozinho em `internato.qmd`.
+- Questão nova: criar `questoes/<especialidade>/questao-NNN.qmd` com `numero`, `chamada`, `tema` (opcional) e `resumo`.
+  Aparece sozinha na página da especialidade (ex.: `hepatologia.qmd`). Não editar as páginas-índice à mão.
+- Modelos das listagens: `_listagens/casos.ejs` e `_listagens/questoes.ejs`. Ordem pelo campo `numero`.
+- Especialidade nova: página como `hepatologia.qmd` (mudando `contents`) + entrada em `questoes-comentadas.qmd`.
 
 ## Comandos
 ```bash

@@ -1,0 +1,8 @@
+<%/* Casos clínicos em internato.qmd. Campos no cabeçalho de cada caso: numero, chamada, resumo. */%>
+<% for (const item of items) { %>
+<div class="listagem-item" <%= metadataAttrs(item) %>>
+<h4 class="anchored">Caso clínico <%= item.numero %> — <%= item.chamada %></h4>
+<p><%= item.resumo %></p>
+<p><a href="<%- item.path %>">Leia o caso clínico completo →</a></p>
+</div>
+<% } %>

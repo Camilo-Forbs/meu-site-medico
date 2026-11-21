@@ -1,6 +1,11 @@
 ---
 title: "Questão 001 — Sorologia das hepatites virais"
 description: "Questão comentada de hepatologia para preparação para residência médica."
+# Usados pela listagem automática em hepatologia.qmd
+numero: "001"
+chamada: "Sorologia das hepatites virais"
+tema: "Hepatite B e hepatite C · Interpretação sorológica"
+resumo: "Mulher de 48 anos apresenta HBsAg negativo, anti-HBc IgM negativo, anti-HBc IgG positivo, anti-HBs positivo e anti-HCV positivo."
 ---
 
 <small>RUMO À RESIDÊNCIA · HEPATOLOGIA · QUESTÃO 001</small>

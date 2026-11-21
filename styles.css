@@ -226,6 +226,13 @@ hr {
 }
 
 
+/* Listagens automáticas de casos e questões (_listagens/*.ejs):
+   mesmo espaçamento do texto corrido que substituíram. */
+.quarto-listing-container-custom {
+  padding-bottom: 0;
+}
+
+
 /* ===================================
    RESPONSIVO
    =================================== */

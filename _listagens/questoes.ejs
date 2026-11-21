@@ -1,0 +1,9 @@
+<%/* Questões comentadas de uma especialidade. Campos no cabeçalho de cada questão: numero, chamada, tema, resumo. */%>
+<% for (const item of items) { %>
+<div class="listagem-item" <%= metadataAttrs(item) %>>
+<h3 class="anchored">Questão <%= item.numero %> — <%= item.chamada %></h3>
+<% if (item.tema) { %><p><strong>Tema:</strong> <%= item.tema %></p><% } %>
+<p><%= item.resumo %></p>
+<p><a href="<%- item.path %>">Resolver questão <%= item.numero %> →</a></p>
+</div>
+<% } %>

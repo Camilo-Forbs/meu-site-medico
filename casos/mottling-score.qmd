@@ -2,6 +2,10 @@
 ---
 title: "Mottling score: quando a pele revela a gravidade do choque"
 description: "Discussão de caso clínico sobre perfusão periférica e avaliação do choque séptico."
+# Usados pela listagem automática em internato.qmd
+numero: "002"
+chamada: "Mottling score e perfusão periférica no choque séptico"
+resumo: "Como interpretar o livedo cutâneo em pacientes críticos? Uma discussão sobre o mottling score, a avaliação da perfusão periférica e a importância de integrar os achados do exame físico aos parâmetros hemodinâmicos na terapia intensiva."
 ---
 
 ## O caso clínico
