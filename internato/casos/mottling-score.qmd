@@ -1,5 +1,7 @@
 
 ---
+aliases:
+  - "../../casos/mottling-score.html"
 title: "Mottling score: quando a pele revela a gravidade do choque"
 description: "Discussão de caso clínico sobre perfusão periférica e avaliação do choque séptico."
 # Usados pela listagem automática em internato.qmd

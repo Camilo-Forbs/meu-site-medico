@@ -1,0 +1,17 @@
+{
+  "Clínica Médica › Hematologia": {
+    "dir": "residencia/lembrar/clinica-medica/hematologia",
+    "area": "Clínica Médica",
+    "materia": "Hematologia",
+    "dir_antigo": "lembrar/clinica-medica/hematologia",
+    "ids_dir_antigo": [
+      "4000081821",
+      "4000106314",
+      "4000133160",
+      "4000134649",
+      "4000144077",
+      "4000169305",
+      "4000184112"
+    ]
+  }
+}

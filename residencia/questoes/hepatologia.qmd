@@ -1,9 +1,11 @@
 ---
+aliases:
+  - "../../hepatologia.html"
 title: "Hepatologia"
 listing:
   id: questoes
-  contents: "questoes/hepatologia/*.qmd"
-  template: _listagens/questoes.ejs
+  contents: "hepatologia/*.qmd"
+  template: ../../_listagens/questoes.ejs
   sort: "numero"
 ---
 

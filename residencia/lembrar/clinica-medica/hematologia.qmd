@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "../../../lembrar/clinica-medica/hematologia.html"
 title: "Hematologia"
 subtitle: "Clínica Médica · Lembrar para a prova"
 listing:
@@ -21,6 +23,6 @@ listing:
   page-size: 30
 ---
 
-[← Lembrar para a prova](../../lembrar-para-a-prova.qmd)
+[← Lembrar para a prova](../index.qmd)
 
 Use o campo **Filtrar** para buscar por tema, banca ou palavra do título. Cada linha abre o resumo completo da questão.

@@ -1,11 +1,13 @@
 
 ---
+aliases:
+  - "../internato.html"
 title: "O internato na prática"
 subtitle: "Aprendizados, experiências e reflexões sobre a formação médica."
 listing:
   id: casos
   contents: "casos/*.qmd"
-  template: _listagens/casos.ejs
+  template: ../_listagens/casos.ejs
   sort: "numero"
 ---
 

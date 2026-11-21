@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "../../../questoes/hepatologia/questao-001.html"
 title: "Questão 001 — Sorologia das hepatites virais"
 description: "Questão comentada de hepatologia para preparação para residência médica."
 # Usados pela listagem automática em hepatologia.qmd

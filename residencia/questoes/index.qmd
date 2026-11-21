@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "../../questoes-comentadas.html"
 title: "Questões comentadas"
 ---
 

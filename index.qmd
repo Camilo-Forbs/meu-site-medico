@@ -34,7 +34,7 @@ e prática médica.
 
 Revisões de temas recorrentes, questões comentadas, diagnósticos diferenciais e condutas importantes para as provas.
 
-[Explorar conteúdos →](residencia.qmd){.card-action}
+[Explorar conteúdos →](residencia/index.qmd){.card-action}
 :::
 
 ::: {.content-card}
@@ -44,7 +44,7 @@ Revisões de temas recorrentes, questões comentadas, diagnósticos diferenciais
 
 Aprendizados dos cenários clínicos, reflexões sobre a formação médica e experiências que ajudam a conectar teoria e prática.
 
-[Explorar conteúdos →](internato.qmd){.card-action}
+[Explorar conteúdos →](internato/index.qmd){.card-action}
 :::
 
 ::: {.content-card}
@@ -54,7 +54,7 @@ Aprendizados dos cenários clínicos, reflexões sobre a formação médica e ex
 
 Curiosidades clínicas, mecanismos fisiopatológicos e explicações sobre como sintomas, sinais e doenças se relacionam.
 
-[Explorar conteúdos →](fisiopatologia.qmd){.card-action}
+[Explorar conteúdos →](fisiopatologia/index.qmd){.card-action}
 :::
 
 :::

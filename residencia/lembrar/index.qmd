@@ -1,9 +1,14 @@
 ---
+aliases:
+  - "../../lembrar-para-a-prova.html"
 title: "Lembrar para a prova"
 subtitle: "Erros comentados, organizados por grande área e matéria."
+# Página de entrada segue o padrão do site (título no corpo); a classe "lembrar"
+# de _metadata.yml, que mostra o bloco de título, vale só para matérias e erros.
+body-classes: lembrar-inicio
 listing:
   id: recentes
-  contents: "lembrar/**/*.md"
+  contents: "**/*.md"
   type: table
   fields: [date, title, banca, gabarito]
   field-display-names:
@@ -36,7 +41,7 @@ Cada questão errada vira um resumo curto: o conceito cobrado, a pegadinha e o q
 
 Anemias, reticulócitos, esfregaço periférico e as associações entre achado laboratorial e causa.
 
-[Ver os erros →](lembrar/clinica-medica/hematologia.qmd){.card-action}
+[Ver os erros →](clinica-medica/hematologia.qmd){.card-action}
 :::
 
 :::

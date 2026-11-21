@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "../../casos/ulceras-digitais.html"
 title: "Úlceras digitais e necrose"
 subtitle: "Um caso clínico comentado do internato"
 description: "Discussão clínica sobre úlceras digitais, necrose, diagnóstico diferencial e cuidados locais das feridas."

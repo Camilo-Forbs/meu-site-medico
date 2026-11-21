@@ -2,26 +2,30 @@
 """Importa erros do estrategia-med para a seção "Lembrar para a prova".
 
 Fonte de verdade: estrategia-med/state/materials/<id>.json
-Saída: lembrar/<area>/<materia>/<id>.md (um arquivo por questão)
+Saída: residencia/lembrar/<area>/<materia>/<id>.md (um arquivo por questão)
 
 Conversão determinística, sem IA e só com a biblioteca padrão.
 - Cria apenas arquivos que ainda não existem.
 - Arquivo existente e idêntico ao que seria gerado: ignorado.
 - Arquivo existente e diferente: conflito (não sobrescreve).
   Para regravar de propósito: --atualizar <id>.
-- Especialidade fora de lembrar/_mapa.json: reportada, nunca adivinhada.
+- Especialidade fora de residencia/lembrar/_mapa.json: reportada, nunca adivinhada.
+- IDs listados em "ids_dir_antigo" no mapa ganham "aliases" (redirecionamento da URL
+  antiga, de antes da mudança para residencia/lembrar/).
 
 Uso:
   python3 scripts/importar_erros.py [--materiais DIR] [--atualizar ID ...] [--simular]
 """
 import argparse
 import json
+import os
 import re
 import sys
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
-MAPA = RAIZ / "lembrar" / "_mapa.json"
+SECAO = RAIZ / "residencia" / "lembrar"
+MAPA = SECAO / "_mapa.json"
 MATERIAIS_PADRAO = Path("/Users/forbs/Downloads/estrategia-med/state/materials")
 
 # Primeira linha de resumo_md: "### <título> — <id> · você: <X> · gabarito: <Y>"
@@ -84,6 +88,9 @@ def gerar(material, destino):
     ]
     linhas = ["---", "# Gerado por scripts/importar_erros.py. Não editar à mão: use --atualizar <id>."]
     linhas += [f"{k}: {q(val)}" for k, val in campos if val]
+    if qid in destino.get("ids_dir_antigo", []):
+        antigo = os.path.relpath(RAIZ / destino["dir_antigo"] / f"{qid}.html", RAIZ / destino["dir"])
+        linhas += ["aliases:", f"  - {q(antigo)}"]
     linhas.append("---")
     texto = "\n".join(linhas) + "\n" + corpo
     if not texto.endswith("\n"):
@@ -130,7 +137,7 @@ def main(argv=None):
             continue
 
         alvo = RAIZ / destino["dir"] / f"{qid}.md"
-        outros = [p for p in (RAIZ / "lembrar").rglob(f"{qid}.md") if p != alvo]
+        outros = [p for p in SECAO.rglob(f"{qid}.md") if p != alvo]
         if outros:
             res["conflito"].append((qid, f"já existe em {outros[0].relative_to(RAIZ)}"))
             continue

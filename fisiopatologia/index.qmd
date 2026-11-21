@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "../fisiopatologia.html"
 title: "Por trás da doença"
 subtitle: "Fisiopatologia, mecanismos e conexões clínicas."
 ---
