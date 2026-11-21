@@ -1,0 +1,50 @@
+---
+title: "Questão 001 — Sorologia das hepatites virais"
+description: "Questão comentada de hepatologia para preparação para residência médica."
+---
+
+<small>RUMO À RESIDÊNCIA · HEPATOLOGIA · QUESTÃO 001</small>
+
+# Interpretação da sorologia das hepatites virais
+
+Uma mulher de 48 anos realizou os seguintes exames laboratoriais:
+
+- HBsAg: negativo
+- Anti-HBc IgM: negativo
+- Anti-HBc IgG: positivo
+- Anti-HBs: positivo
+- Anti-HCV: positivo
+
+**Qual é a conduta mais adequada?**
+
+**A)** Dosar HBV-DNA.
+
+**B)** Dosar HCV-RNA.
+
+**C)** Solicitar HBeAg e anti-HBe.
+
+**D)** Indicar biópsia hepática.
+
+---
+
+## Gabarito comentado
+
+::: {.callout-tip collapse="true" title="Revelar resposta e comentário"}
+**Resposta correta: B — Dosar HCV-RNA.**
+
+O anti-HCV positivo indica exposição prévia ao vírus da hepatite C, mas não diferencia infecção ativa de infecção espontaneamente resolvida ou tratada.
+
+A pesquisa de HCV-RNA por teste molecular é indicada para investigar infecção atual. Um resultado detectável confirma viremia; um resultado não detectável geralmente indica ausência de infecção ativa naquele momento, considerando o contexto clínico.
+
+**Interpretação da hepatite B:** o padrão HBsAg negativo, anti-HBc IgG positivo e anti-HBs positivo é compatível com infecção passada resolvida, com imunidade adquirida por contato natural.
+
+**Por que as outras alternativas estão incorretas?**
+
+- **A)** O padrão sorológico apresentado não indica, por si só, necessidade de dosagem de HBV-DNA.
+- **C)** HBeAg e anti-HBe não são os exames indicados para esclarecer a positividade isolada do anti-HCV.
+- **D)** A biópsia hepática não é o primeiro passo para confirmar infecção ativa pelo HCV.
+:::
+
+## Pérola para a prova
+
+**Anti-HCV positivo não significa necessariamente hepatite C ativa.** Para investigar infecção atual, solicite HCV-RNA.

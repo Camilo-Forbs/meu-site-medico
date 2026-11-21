@@ -1,3 +1,4 @@
+
 ---
 title: "O internato na prática"
 subtitle: "Aprendizados, experiências e reflexões sobre a formação médica."
@@ -20,6 +21,12 @@ Reflexões sobre situações clínicas, desafios da rotina hospitalar e conhecim
 Discussão de um caso observado durante o internato, com foco na avaliação vascular, nos diagnósticos diferenciais, no reconhecimento de infecção e nos cuidados locais da ferida.
 
 [Leia o caso clínico completo →](casos/ulceras-digitais.qmd)
+
+#### Caso clínico 002 — Mottling score e perfusão periférica no choque séptico
+
+Como interpretar o livedo cutâneo em pacientes críticos? Uma discussão sobre o mottling score, a avaliação da perfusão periférica e a importância de integrar os achados do exame físico aos parâmetros hemodinâmicos na terapia intensiva.
+
+[Leia o caso clínico completo →](casos/mottling-score.qmd)
 
 ### Raciocínio clínico aplicado
 

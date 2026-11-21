@@ -1,0 +1,95 @@
+
+---
+title: "Mottling score: quando a pele revela a gravidade do choque"
+description: "Discussão de caso clínico sobre perfusão periférica e avaliação do choque séptico."
+---
+
+## O caso clínico
+
+Paciente adulto, com antecedente de doença pulmonar obstrutiva crônica (DPOC) e tabagismo importante, admitido após cefaleia súbita associada à perda transitória da consciência. A tomografia de crânio evidenciou hemorragia subaracnóidea (HSA) aneurismática, complicada por hidrocefalia, sendo necessária intubação orotraqueal e posterior implantação de derivação ventricular externa (DVE).
+
+Durante a internação na UTI, o quadro evoluiu com disfunção renal aguda grave, necessidade de terapia dialítica e choque séptico, com suspeita de foco pulmonar. A tomografia de tórax demonstrava consolidações bibasais, e o paciente apresentava episódios febris recorrentes.
+
+Apesar do suporte intensivo, houve piora hemodinâmica importante após a primeira sessão de hemodiálise, com necessidade de escalonamento das drogas vasoativas.
+
+Na avaliação clínica, destacavam-se:
+
+- Noradrenalina em dose elevada, associada à vasopressina;
+- Taquicardia;
+- Extremidades cianóticas;
+- Tempo de enchimento capilar de aproximadamente 5 segundos;
+- Livedo em membros inferiores, com **mottling score 2**;
+- Lesão renal aguda grave, com necessidade de diálise;
+- Ventilação mecânica invasiva e sedação profunda.
+
+Naquele momento, a pressão arterial média registrada era de 86 mmHg, mas esse valor precisava ser interpretado no contexto do suporte vasoativo intenso e dos sinais de hipoperfusão periférica.
+
+## O que é o mottling score?
+
+O *mottling score* é uma escala clínica que quantifica a extensão do livedo cutâneo, uma alteração irregular da coloração da pele frequentemente observada ao redor dos joelhos em pacientes com choque.
+
+O livedo pode refletir alterações da perfusão cutânea relacionadas à vasoconstrição heterogênea da microcirculação. No choque séptico, essas alterações podem coexistir com comprometimento da perfusão de outros tecidos e órgãos.
+
+A escala proposta por Ait-Oufella e colaboradores varia de **0 a 5**, de acordo com a extensão do livedo nos membros inferiores.
+
+## Como interpretar a escala?
+
+| Escore | Achado clínico |
+|:--:|---|
+| 0 | Ausência de livedo. |
+| 1 | Área pequena, aproximadamente do tamanho de uma moeda, localizada no centro do joelho. |
+| 2 | Livedo que não ultrapassa a borda superior da patela. |
+| 3 | Livedo que se estende até, no máximo, a metade da coxa. |
+| 4 | Livedo que se estende até, no máximo, a prega inguinal. |
+| 5 | Livedo que ultrapassa a prega inguinal. |
+
+O escore deve ser interpretado conforme a extensão anatômica do livedo, e não apenas pela intensidade visual da coloração.
+
+## O que significa um mottling score 2?
+
+Um escore 2 corresponde a livedo que não ultrapassa a borda superior da patela. Embora não represente a maior extensão possível de livedo, não deve ser considerado um achado irrelevante em um paciente com choque.
+
+Estudos observacionais em pacientes com choque séptico encontraram associação entre escores mais elevados e maior mortalidade em curto prazo. A persistência ou progressão do livedo também pode fornecer informações prognósticas.
+
+Entretanto, **o mottling score não deve ser utilizado isoladamente para estimar o prognóstico individual ou determinar uma conduta terapêutica**. É necessário integrar o achado à avaliação hemodinâmica, aos demais sinais de perfusão e à evolução clínica.
+
+## Voltando ao caso: o que o exame físico nos ensinava?
+
+O aspecto mais importante não era apenas o valor numérico do escore, mas a combinação dos achados.
+
+A pressão arterial média de 86 mmHg estava dentro de uma faixa habitualmente considerada adequada para muitos pacientes com choque séptico. Contudo, esse valor era obtido sob doses elevadas de noradrenalina e vasopressina.
+
+Ao mesmo tempo, o paciente apresentava tempo de enchimento capilar prolongado, extremidades cianóticas e livedo nos membros inferiores. A presença desses sinais levantava preocupação com a persistência de alterações da perfusão periférica, apesar da pressão arterial registrada.
+
+A lesão renal aguda grave, a necessidade de terapia dialítica e a instabilidade hemodinâmica reforçavam a gravidade do quadro, embora não fosse possível atribuir todas essas alterações exclusivamente à hipoperfusão.
+
+O caso ilustra uma distinção fundamental na terapia intensiva:
+
+**Pressão arterial adequada não é sinônimo de perfusão tecidual necessariamente adequada.**
+
+## Como o mottling score deve ser utilizado à beira-leito?
+
+O escore é uma ferramenta complementar de avaliação clínica. Na prática, sua utilidade está em:
+
+1. **Avaliar a perfusão periférica:** observar a presença e a extensão do livedo, em conjunto com temperatura das extremidades e tempo de enchimento capilar.
+2. **Acompanhar a evolução:** registrar o escore em avaliações seriadas e verificar se há regressão, persistência ou progressão do livedo.
+3. **Integrar outros parâmetros:** correlacionar o exame físico com pressão arterial, dose de vasopressores, lactato, diurese e função dos órgãos.
+4. **Reavaliar a resposta à ressuscitação:** interpretar a mudança dos sinais de perfusão junto aos demais dados clínicos, sem utilizar o escore isoladamente para orientar fluidos ou drogas vasoativas.
+
+O escore é observacional: não identifica sozinho a causa do choque, não substitui a avaliação hemodinâmica e não determina automaticamente a necessidade de volume, inotrópicos ou vasopressores.
+
+## O que levar para a prática?
+
+- O mottling score varia de 0 a 5 e quantifica a extensão do livedo nos membros inferiores.
+- Escores mais elevados e sua persistência foram associados a piores desfechos em estudos observacionais de choque séptico.
+- A tendência temporal pode ser tão importante quanto uma medida isolada.
+- Pressão arterial, perfusão periférica e função orgânica são dimensões complementares da avaliação do paciente crítico.
+- O mottling score é um instrumento de exame físico, não um substituto para a avaliação clínica global.
+
+## Referências
+
+1. Ait-Oufella H, et al. **Mottling score predicts survival in septic shock.** *Intensive Care Medicine*. 2011;37:801–807. [PubMed](https://pubmed.ncbi.nlm.nih.gov/21373821/).
+
+2. Dumas G, et al. **Mottling score is a strong predictor of 14-day mortality in septic patients whatever vasopressor doses and other tissue perfusion parameters.** *Critical Care*. 2019;23:211. [Texto completo](https://pmc.ncbi.nlm.nih.gov/articles/PMC6558704/).
+
+3. Evans L, et al. **Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021.** *Intensive Care Medicine*. 2021. [Texto completo](https://pmc.ncbi.nlm.nih.gov/articles/PMC8486643/).

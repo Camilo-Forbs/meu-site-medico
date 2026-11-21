@@ -1,0 +1,17 @@
+---
+title: "Hepatologia"
+---
+
+# Questões comentadas de Hepatologia
+
+Nesta seção, você encontrará questões sobre doenças hepáticas, interpretação de exames, diagnóstico e condutas clínicas relevantes para as provas de residência médica.
+
+## Banco de questões
+
+### Questão 001 — Sorologia das hepatites virais
+
+**Tema:** Hepatite B e hepatite C · Interpretação sorológica
+
+Mulher de 48 anos apresenta HBsAg negativo, anti-HBc IgM negativo, anti-HBc IgG positivo, anti-HBs positivo e anti-HCV positivo.
+
+[Resolver questão 001 →](questoes/hepatologia/questao-001.qmd)

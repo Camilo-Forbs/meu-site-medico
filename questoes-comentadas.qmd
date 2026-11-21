@@ -1,0 +1,15 @@
+---
+title: "Questões comentadas"
+---
+
+# Questões comentadas
+
+Um banco de questões organizado por especialidade, com foco em interpretação clínica, raciocínio diagnóstico e condutas relevantes para as provas de residência médica.
+
+## Especialidades
+
+### Hepatologia
+
+Interpretação de sorologias, hepatites virais, doenças hepáticas e investigação diagnóstica.
+
+[Explorar questões de Hepatologia →](hepatologia.qmd)
