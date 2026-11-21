@@ -1,5 +1,4 @@
 # Vale para todas as páginas dentro de lembrar/
-lang: pt-BR
 body-classes: lembrar
 date-format: "DD/MM/YYYY"
 language:

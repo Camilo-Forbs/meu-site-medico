@@ -1,9 +1,7 @@
 ---
-title: "About"
+title: "Sobre mim"
 ---
 
-About this site
+# Camilo André Viana Diaz
 
-```{r}
-1 + 1
-```
+Preparação para a residência, raciocínio clínico e aprendizados do internato. Um espaço para conectar conhecimento científico, fisiopatologia e prática médica.

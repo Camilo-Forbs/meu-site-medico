@@ -1,0 +1,25 @@
+# Identidade visual do site (lida pelo tema "brand" em _quarto.yml).
+# Define as cores do Bootstrap; ajustes finos continuam em styles.css.
+color:
+  palette:
+    carvao: "#171817"
+    off-white: "#E8E0D3"
+    marrom: "#6A5140"
+    dourado: "#A89575"
+  foreground: carvao
+  background: off-white
+  primary: marrom
+  secondary: dourado
+  dark: carvao
+  light: off-white
+
+typography:
+  base:
+    family: "Helvetica Neue, Arial, sans-serif"
+    line-height: 1.75
+  headings:
+    family: "Georgia, Times New Roman, serif"
+    weight: 400
+    color: carvao
+  link:
+    color: marrom

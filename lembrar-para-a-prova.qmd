@@ -1,7 +1,6 @@
 ---
 title: "Lembrar para a prova"
 subtitle: "Erros comentados, organizados por grande área e matéria."
-lang: pt-BR
 listing:
   id: recentes
   contents: "lembrar/**/*.md"
