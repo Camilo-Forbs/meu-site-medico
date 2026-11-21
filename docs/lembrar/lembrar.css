@@ -56,8 +56,7 @@ body.lembrar .quarto-title-meta-contents {
   color: var(--carvao);
 }
 
-.quarto-listing-container-table,
-.quarto-listing {
+.quarto-listing-container-table {
   overflow-x: auto;
 }
 

@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -72,7 +74,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Procurar"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-casos .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-lang','listing-editor','listing-language','listing-title','listing-description','listing-numero','listing-chamada','listing-resumo','listing-path','listing-outputHref','listing-author','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-subtitle','listing-date','listing-date-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-lang","listing-editor","listing-language","listing-title","listing-description","listing-numero","listing-chamada","listing-resumo","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-subtitle","listing-date","listing-date-modified"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-casos'] = new List('listing-casos', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="lembrar/lembrar.css">
@@ -165,16 +225,31 @@ ul.task-list li input[type="checkbox"] {
 <section id="aprendizados-do-internato" class="level3">
 <h3 class="anchored" data-anchor-id="aprendizados-do-internato">Aprendizados do internato</h3>
 <p>Reflexões sobre situações clínicas, desafios da rotina hospitalar e conhecimentos que fazem diferença na formação médica.</p>
-<section id="caso-clínico-001-úlceras-digitais-e-necrose" class="level4">
-<h4 class="anchored" data-anchor-id="caso-clínico-001-úlceras-digitais-e-necrose">Caso clínico 001 — Úlceras digitais e necrose</h4>
-<p>Discussão de um caso observado durante o internato, com foco na avaliação vascular, nos diagnósticos diferenciais, no reconhecimento de infecção e nos cuidados locais da ferida.</p>
-<p><a href="./casos/ulceras-digitais.html">Leia o caso clínico completo →</a></p>
-</section>
-<section id="caso-clínico-002-mottling-score-e-perfusão-periférica-no-choque-séptico" class="level4">
-<h4 class="anchored" data-anchor-id="caso-clínico-002-mottling-score-e-perfusão-periférica-no-choque-séptico">Caso clínico 002 — Mottling score e perfusão periférica no choque séptico</h4>
-<p>Como interpretar o livedo cutâneo em pacientes críticos? Uma discussão sobre o mottling score, a avaliação da perfusão periférica e a importância de integrar os achados do exame físico aos parâmetros hemodinâmicos na terapia intensiva.</p>
-<p><a href="./casos/mottling-score.html">Leia o caso clínico completo →</a></p>
-</section>
+<div id="listing-casos" class="quarto-listing quarto-listing-container-custom">
+<div class="listagem-item" data-index="0" data-listing-date-sort="1793242800000" data-listing-file-modified-sort="1795229717200" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1434">
+<h4 class="anchored">
+Caso clínico 001 — Úlceras digitais e necrose
+</h4>
+<p>
+Discussão de um caso observado durante o internato, com foco na avaliação vascular, nos diagnósticos diferenciais, no reconhecimento de infecção e nos cuidados locais da ferida.
+</p>
+<p>
+<a href="./casos/ulceras-digitais.html">Leia o caso clínico completo →</a>
+</p>
+</div>
+<div class="listagem-item" data-index="1" data-listing-file-modified-sort="1795229717216" data-listing-reading-time-sort="5" data-listing-word-count-sort="895">
+<h4 class="anchored">
+Caso clínico 002 — Mottling score e perfusão periférica no choque séptico
+</h4>
+<p>
+Como interpretar o livedo cutâneo em pacientes críticos? Uma discussão sobre o mottling score, a avaliação da perfusão periférica e a importância de integrar os achados do exame físico aos parâmetros hemodinâmicos na terapia intensiva.
+</p>
+<p>
+<a href="./casos/mottling-score.html">Leia o caso clínico completo →</a>
+</p>
+</div>
+<div class="listing-no-matching d-none">Sem itens correspondentes</div>
+</div>
 </section>
 <section id="raciocínio-clínico-aplicado" class="level3">
 <h3 class="anchored" data-anchor-id="raciocínio-clínico-aplicado">Raciocínio clínico aplicado</h3>
@@ -189,6 +264,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Conceitos e aprendizados que merecem ser compartilhados por contribuírem para uma formação médica mais crítica e consciente.</p>
 <hr>
 <p><em>Aprender medicina também é aprender a observar, questionar e cuidar.</em></p>
+
 
 
 </section>

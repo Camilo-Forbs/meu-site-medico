@@ -12,6 +12,19 @@
     ]
   },
   {
+    "listing": "/internato.html",
+    "items": [
+      "/casos/ulceras-digitais.html",
+      "/casos/mottling-score.html"
+    ]
+  },
+  {
+    "listing": "/hepatologia.html",
+    "items": [
+      "/questoes/hepatologia/questao-001.html"
+    ]
+  },
+  {
     "listing": "/lembrar-para-a-prova.html",
     "items": [
       "/lembrar/clinica-medica/hematologia/4000184112.html",
