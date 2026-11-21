@@ -192,9 +192,55 @@
   }
 }
 
-/* Variante de duas colunas (ex.: casos clínicos) */
+/* Variante de duas colunas */
 .painel-estudos--duas {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+/* Variante compacta (catálogo de casos e temas do Internato) */
+.painel-estudos--compacto {
+  gap: 1rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.estudo-card--compacto {
+  min-height: 0;
+  padding: 1.25rem 1.3rem 1.1rem;
+}
+
+.estudo-card.estudo-card--compacto h3,
+.estudo-card.estudo-card--compacto h4 {
+  margin: 1.1rem 0 0.5rem;
+  font-size: 1.2rem;
+  line-height: 1.3;
+}
+
+.estudo-card--compacto p {
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.estudo-card--compacto p:has(> .estudo-card__acao) {
+  padding-top: 1.1rem;
+}
+
+.estudo-card--compacto .estudo-card__acao:has(.estudo-card__meta) {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.estudo-card__meta {
+  color: var(--marrom);
+  font-size: 0.72rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+}
+
+.estudo-card--compacto .estudo-card__acao > span[aria-hidden] {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
 }
 
 /* A listagem automática do Quarto envolve o painel: sem espaço extra */
@@ -223,6 +269,11 @@
   .estudo-card,
   .estudo-card--destaque {
     min-height: 0;
+  }
+
+  .estudo-card.estudo-card--compacto h3,
+  .estudo-card.estudo-card--compacto h4 {
+    margin-top: 1rem;
   }
 
   .estudo-card h3,

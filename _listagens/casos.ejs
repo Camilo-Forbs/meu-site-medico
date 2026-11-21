@@ -1,12 +1,13 @@
-<%/* Casos clínicos em internato/index.qmd, como cards clicáveis (estilos em cards.css).
-     Campos no cabeçalho de cada caso: numero, chamada, resumo. */%>
-<div class="painel-estudos painel-estudos--duas">
+<%/* Catálogo de casos clínicos em internato/index.qmd: cards compactos e clicáveis (estilos em cards.css).
+     Campos no cabeçalho de cada caso: numero, chamada, description (texto curto do card; se faltar, usa resumo).
+     O tempo de leitura é calculado pelo Quarto. */%>
+<div class="painel-estudos painel-estudos--compacto">
 <% for (const item of items) { %>
-<div class="estudo-card listagem-item" <%= metadataAttrs(item) %>>
+<div class="estudo-card estudo-card--compacto listagem-item" <%= metadataAttrs(item) %>>
 <p><span class="estudo-card__categoria"><i class="bi bi-clipboard2-pulse" aria-hidden="true"></i> Caso clínico <%= item.numero %></span></p>
-<h4><a href="<%- item.path %>" class="estudo-card__link"><%= item.chamada %></a></h4>
-<p><%= item.resumo %></p>
-<p><span class="estudo-card__acao" aria-hidden="true">Ler o caso completo <i class="bi bi-arrow-right"></i></span></p>
+<h3><a href="<%- item.path %>" class="estudo-card__link"><%= item.chamada || item.title %></a></h3>
+<p><%= item.description || item.resumo %></p>
+<p><span class="estudo-card__acao"><span aria-hidden="true">Ler o caso <i class="bi bi-arrow-right"></i></span><% const minutos = parseInt(item['reading-time'], 10); if (minutos) { %><span class="estudo-card__meta"><%= minutos %> min de leitura</span><% } %></span></p>
 </div>
 <% } %>
 </div>

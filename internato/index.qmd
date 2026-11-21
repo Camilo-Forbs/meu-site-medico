@@ -11,24 +11,30 @@ listing:
   sort: "numero"
 ---
 
+::: {.cabecalho-editorial}
+<p class="hero-eyebrow">INTERNATO · CASOS CLÍNICOS</p>
+
 # A medicina além dos livros.
+
+<p class="cabecalho-editorial__lead">Aprendizados, experiências e reflexões sobre a formação médica.</p>
+:::
 
 O internato é o momento em que o conhecimento teórico começa a ser colocado à prova diante de situações clínicas reais. Cada atendimento traz oportunidades para desenvolver o raciocínio clínico, aprimorar a comunicação e compreender melhor o cuidado ao paciente.
 
 Esta seção reúne aprendizados da formação médica, sempre com compromisso com a evidência científica, a ética e a privacidade dos pacientes.
 
-## O que você encontrará aqui
-
-### Aprendizados do internato
+## Aprendizados do internato
 
 Reflexões sobre situações clínicas, desafios da rotina hospitalar e conhecimentos que fazem diferença na formação médica.
 
 ::: {#casos .column-page}
 :::
 
-::: {.painel-estudos .painel-internato-temas .column-page}
+## Em preparação
 
-::: {.estudo-card .estudo-card--em-breve}
+::: {.painel-estudos .painel-estudos--compacto .column-page}
+
+::: {.estudo-card .estudo-card--em-breve .estudo-card--compacto}
 <span class="estudo-card__categoria"><i class="bi bi-diagram-3" aria-hidden="true"></i> Raciocínio</span>
 
 ### Raciocínio clínico aplicado
@@ -38,7 +44,7 @@ Discussões sobre como organizar hipóteses diagnósticas, interpretar achados c
 <span class="estudo-card__acao estudo-card__acao--em-breve"><i class="bi bi-clock" aria-hidden="true"></i> Em breve</span>
 :::
 
-::: {.estudo-card .estudo-card--em-breve}
+::: {.estudo-card .estudo-card--em-breve .estudo-card--compacto}
 <span class="estudo-card__categoria"><i class="bi bi-person-workspace" aria-hidden="true"></i> Formação</span>
 
 ### Bastidores da formação
@@ -48,7 +54,7 @@ Experiências, dificuldades e descobertas ao longo da graduação, com reflexõe
 <span class="estudo-card__acao estudo-card__acao--em-breve"><i class="bi bi-clock" aria-hidden="true"></i> Em breve</span>
 :::
 
-::: {.estudo-card .estudo-card--em-breve}
+::: {.estudo-card .estudo-card--em-breve .estudo-card--compacto}
 <span class="estudo-card__categoria"><i class="bi bi-lightbulb" aria-hidden="true"></i> Reflexões</span>
 
 ### Lições que ficam

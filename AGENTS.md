@@ -32,7 +32,8 @@ Qualquer merge em `main` publica. Nada vai para `main` sem autorização explíc
   (já vem ao copiar `hematologia.qmd`; ajustar o caminho relativo se a pasta for diferente).
 
 ## Casos clínicos e questões comentadas (listagens automáticas)
-- Caso novo: criar `internato/casos/<nome>.qmd` com `numero`, `chamada` e `resumo` no cabeçalho. Aparece sozinho em `internato/index.qmd`.
+- Caso novo: criar `internato/casos/<nome>.qmd` com `numero`, `chamada` e `description` (texto curto do card; `resumo` é o
+  reserva) no cabeçalho. Aparece sozinho no catálogo compacto de `internato/index.qmd`, com o tempo de leitura calculado pelo Quarto.
 - Questão nova: criar `residencia/questoes/<especialidade>/questao-NNN.qmd` com `numero`, `chamada`, `tema` (opcional) e `resumo`.
   Aparece sozinha na página da especialidade (ex.: `residencia/questoes/hepatologia.qmd`). Não editar as páginas-índice à mão.
 - Modelos das listagens: `_listagens/casos.ejs` e `_listagens/questoes.ejs`. Ordem pelo campo `numero`.

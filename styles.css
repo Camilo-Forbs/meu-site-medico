@@ -136,6 +136,32 @@ hr {
   text-decoration: none;
 }
 
+/* Cabeçalho editorial de páginas internas (ex.: Internato) */
+.cabecalho-editorial {
+  margin-bottom: 1.75rem;
+  padding: 1.5rem 0 1.75rem;
+  border-bottom: 1px solid var(--dourado);
+}
+
+.cabecalho-editorial .hero-eyebrow {
+  margin-bottom: 1.25rem;
+}
+
+.cabecalho-editorial h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+}
+
+.cabecalho-editorial__lead {
+  margin: 0;
+  color: var(--marrom);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15rem;
+  font-style: italic;
+}
+
 #pilares {
   margin-top: 1rem;
   font-size: 2rem;
