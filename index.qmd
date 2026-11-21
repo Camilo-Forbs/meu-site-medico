@@ -30,41 +30,39 @@ e prática médica.
 
 ## Explore por tema {#pilares}
 
-::: {.content-grid}
+::: {.painel-estudos .painel-inicio}
 
-::: {.content-card}
-<span class="card-number">01 / RESIDÊNCIA</span>
+::: {.estudo-card}
+<span class="estudo-card__categoria"><i class="bi bi-mortarboard" aria-hidden="true"></i> 01 / Residência</span>
 
-### Rumo à residência
+### [Rumo à residência](residencia/index.qmd){.estudo-card__link}
 
 Revisões de temas recorrentes, questões comentadas, diagnósticos diferenciais e condutas importantes para as provas.
 
-[Explorar conteúdos →](residencia/index.qmd){.card-action}
+<span class="estudo-card__acao" aria-hidden="true">Explorar conteúdos <i class="bi bi-arrow-right"></i></span>
 :::
 
-::: {.content-card}
-<span class="card-number">02 / INTERNATO</span>
+::: {.estudo-card}
+<span class="estudo-card__categoria"><i class="bi bi-hospital" aria-hidden="true"></i> 02 / Internato</span>
 
-### O internato na prática
+### [O internato na prática](internato/index.qmd){.estudo-card__link}
 
 Aprendizados dos cenários clínicos, reflexões sobre a formação médica e experiências que ajudam a conectar teoria e prática.
 
-[Explorar conteúdos →](internato/index.qmd){.card-action}
+<span class="estudo-card__acao" aria-hidden="true">Explorar conteúdos <i class="bi bi-arrow-right"></i></span>
 :::
 
-::: {.content-card}
-<span class="card-number">03 / FISIOPATOLOGIA</span>
+::: {.estudo-card}
+<span class="estudo-card__categoria"><i class="bi bi-activity" aria-hidden="true"></i> 03 / Fisiopatologia</span>
 
-### Por trás da doença
+### [Por trás da doença](fisiopatologia/index.qmd){.estudo-card__link}
 
 Curiosidades clínicas, mecanismos fisiopatológicos e explicações sobre como sintomas, sinais e doenças se relacionam.
 
-[Explorar conteúdos →](fisiopatologia/index.qmd){.card-action}
+<span class="estudo-card__acao" aria-hidden="true">Explorar conteúdos <i class="bi bi-arrow-right"></i></span>
 :::
 
 :::
-
----
 
 ::: {.closing-note}
 

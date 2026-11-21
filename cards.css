@@ -1,6 +1,8 @@
 /* ===================================
-   RESIDÊNCIA — PAINEL DE ESTUDOS
-   Estilos restritos a .painel-estudos (usado só em residencia/index.qmd).
+   CARDS DE NAVEGAÇÃO (painel de estudos)
+   Usados em Início, Residência e Internato. Classes: .painel-estudos (grade),
+   .estudo-card (card), --destaque (fundo carvão), --em-breve (sem link).
+   Tudo restrito a essas classes: não afeta outras páginas.
    Cores: variáveis de styles.css (--carvao, --off-white, --marrom, --dourado).
    =================================== */
 
@@ -60,7 +62,8 @@
   letter-spacing: 0;
 }
 
-.estudo-card h3 {
+.estudo-card h3,
+.estudo-card h4 {
   margin: 2.25rem 0 0.8rem;
   font-size: 1.5rem;
   line-height: 1.25;
@@ -135,6 +138,7 @@
 }
 
 .estudo-card--destaque h3,
+.estudo-card--destaque h4,
 .estudo-card--destaque .estudo-card__link,
 .estudo-card--destaque .estudo-card__link:hover,
 .estudo-card--destaque .estudo-card__link:focus {
@@ -159,6 +163,7 @@
 }
 
 .estudo-card--em-breve h3,
+.estudo-card--em-breve h4,
 .estudo-card--em-breve p {
   color: var(--marrom);
 }
@@ -187,6 +192,16 @@
   }
 }
 
+/* Variante de duas colunas (ex.: casos clínicos) */
+.painel-estudos--duas {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+/* A listagem automática do Quarto envolve o painel: sem espaço extra */
+.quarto-listing .painel-estudos {
+  margin-bottom: 2rem;
+}
+
 /* Tablet: dois por linha, destaque ocupa a linha inteira */
 @media (max-width: 991.98px) {
   .painel-estudos {
@@ -210,7 +225,8 @@
     min-height: 0;
   }
 
-  .estudo-card h3 {
+  .estudo-card h3,
+  .estudo-card h4 {
     margin-top: 1.5rem;
   }
 }

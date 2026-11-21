@@ -41,6 +41,7 @@ format:
       - brand
     css:
       - styles.css
+      - cards.css
       - residencia/lembrar/lembrar.css
     toc: false
 

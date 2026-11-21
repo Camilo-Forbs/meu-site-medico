@@ -14,6 +14,8 @@ Qualquer merge em `main` publica. Nada vai para `main` sem autorização explíc
 
 ## Estrutura (uma pasta por pilar)
 - Raiz: `404.qmd` (página de erro do Pages), `favicon.svg`; `site-url`, descrição, Open Graph e sitemap em `_quarto.yml`.
+- Cards clicáveis (Início, Residência, Internato): estilos em `cards.css` (classes `.painel-estudos`, `.estudo-card`,
+  `--destaque`, `--em-breve`). Card sem página ainda = `--em-breve`, sem link. Casos usam o modelo `_listagens/casos.ejs`.
 - `index.qmd`, `about.qmd` na raiz. Menu em `_quarto.yml` (Residência é submenu).
 - `residencia/`: `index.qmd`, `questoes/` (questões comentadas) e `lembrar/` (Lembrar para a prova).
 - `internato/`: `index.qmd` e `casos/`. `fisiopatologia/`: `index.qmd`.

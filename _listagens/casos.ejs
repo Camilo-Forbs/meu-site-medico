@@ -1,8 +1,12 @@
-<%/* Casos clínicos em internato.qmd. Campos no cabeçalho de cada caso: numero, chamada, resumo. */%>
+<%/* Casos clínicos em internato/index.qmd, como cards clicáveis (estilos em cards.css).
+     Campos no cabeçalho de cada caso: numero, chamada, resumo. */%>
+<div class="painel-estudos painel-estudos--duas">
 <% for (const item of items) { %>
-<div class="listagem-item" <%= metadataAttrs(item) %>>
-<h4 class="anchored">Caso clínico <%= item.numero %> — <%= item.chamada %></h4>
+<div class="estudo-card listagem-item" <%= metadataAttrs(item) %>>
+<p><span class="estudo-card__categoria"><i class="bi bi-clipboard2-pulse" aria-hidden="true"></i> Caso clínico <%= item.numero %></span></p>
+<h4><a href="<%- item.path %>" class="estudo-card__link"><%= item.chamada %></a></h4>
 <p><%= item.resumo %></p>
-<p><a href="<%- item.path %>">Leia o caso clínico completo →</a></p>
+<p><span class="estudo-card__acao" aria-hidden="true">Ler o caso completo <i class="bi bi-arrow-right"></i></span></p>
 </div>
 <% } %>
+</div>

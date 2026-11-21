@@ -4,7 +4,6 @@ aliases:
   - "../residencia.html"
 title: "Rumo à residência"
 subtitle: "Conhecimento direcionado, raciocínio clínico e preparação para as provas."
-css: residencia.css
 ---
 
 # Estudar com estratégia. Raciocinar com método.

@@ -23,20 +23,42 @@ Esta seção reúne aprendizados da formação médica, sempre com compromisso c
 
 Reflexões sobre situações clínicas, desafios da rotina hospitalar e conhecimentos que fazem diferença na formação médica.
 
-::: {#casos}
+::: {#casos .column-page}
 :::
+
+::: {.painel-estudos .painel-internato-temas .column-page}
+
+::: {.estudo-card .estudo-card--em-breve}
+<span class="estudo-card__categoria"><i class="bi bi-diagram-3" aria-hidden="true"></i> Raciocínio</span>
 
 ### Raciocínio clínico aplicado
 
 Discussões sobre como organizar hipóteses diagnósticas, interpretar achados clínicos e compreender a tomada de decisão médica.
 
+<span class="estudo-card__acao estudo-card__acao--em-breve"><i class="bi bi-clock" aria-hidden="true"></i> Em breve</span>
+:::
+
+::: {.estudo-card .estudo-card--em-breve}
+<span class="estudo-card__categoria"><i class="bi bi-person-workspace" aria-hidden="true"></i> Formação</span>
+
 ### Bastidores da formação
 
 Experiências, dificuldades e descobertas ao longo da graduação, com reflexões sobre o desenvolvimento profissional.
 
+<span class="estudo-card__acao estudo-card__acao--em-breve"><i class="bi bi-clock" aria-hidden="true"></i> Em breve</span>
+:::
+
+::: {.estudo-card .estudo-card--em-breve}
+<span class="estudo-card__categoria"><i class="bi bi-lightbulb" aria-hidden="true"></i> Reflexões</span>
+
 ### Lições que ficam
 
 Conceitos e aprendizados que merecem ser compartilhados por contribuírem para uma formação médica mais crítica e consciente.
+
+<span class="estudo-card__acao estudo-card__acao--em-breve"><i class="bi bi-clock" aria-hidden="true"></i> Em breve</span>
+:::
+
+:::
 
 ---
 
