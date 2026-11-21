@@ -33,4 +33,3 @@ Para testar sem tocar em `docs/` e `.quarto/`, copie o projeto para uma pasta te
 - `about.qmd` tem um bloco R: o render completo precisa do R instalado.
 - Commit, push, PR, merge e publicação só com autorização. Nunca usar force push.
 - Antes de trabalhar: `git fetch` e conferir `git status -sb`. Se `main` estiver atrás, só avançar com `git merge --ff-only`.
-- Pendente (tarefa separada): tirar `.quarto/` e `.Rproj.user/` do controle de versão.
