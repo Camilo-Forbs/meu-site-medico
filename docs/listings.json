@@ -1,39 +1,39 @@
 [
   {
-    "listing": "/lembrar/clinica-medica/hematologia.html",
+    "listing": "/residencia/lembrar/index.html",
     "items": [
-      "/lembrar/clinica-medica/hematologia/4000184112.html",
-      "/lembrar/clinica-medica/hematologia/4000169305.html",
-      "/lembrar/clinica-medica/hematologia/4000144077.html",
-      "/lembrar/clinica-medica/hematologia/4000106314.html",
-      "/lembrar/clinica-medica/hematologia/4000133160.html",
-      "/lembrar/clinica-medica/hematologia/4000081821.html",
-      "/lembrar/clinica-medica/hematologia/4000134649.html"
+      "/residencia/lembrar/clinica-medica/hematologia/4000184112.html",
+      "/residencia/lembrar/clinica-medica/hematologia/4000169305.html",
+      "/residencia/lembrar/clinica-medica/hematologia/4000144077.html",
+      "/residencia/lembrar/clinica-medica/hematologia/4000106314.html",
+      "/residencia/lembrar/clinica-medica/hematologia/4000133160.html",
+      "/residencia/lembrar/clinica-medica/hematologia/4000081821.html",
+      "/residencia/lembrar/clinica-medica/hematologia/4000134649.html"
     ]
   },
   {
-    "listing": "/internato.html",
+    "listing": "/internato/index.html",
     "items": [
-      "/casos/ulceras-digitais.html",
-      "/casos/mottling-score.html"
+      "/internato/casos/ulceras-digitais.html",
+      "/internato/casos/mottling-score.html"
     ]
   },
   {
-    "listing": "/hepatologia.html",
+    "listing": "/residencia/lembrar/clinica-medica/hematologia.html",
     "items": [
-      "/questoes/hepatologia/questao-001.html"
+      "/residencia/lembrar/clinica-medica/hematologia/4000184112.html",
+      "/residencia/lembrar/clinica-medica/hematologia/4000169305.html",
+      "/residencia/lembrar/clinica-medica/hematologia/4000144077.html",
+      "/residencia/lembrar/clinica-medica/hematologia/4000106314.html",
+      "/residencia/lembrar/clinica-medica/hematologia/4000133160.html",
+      "/residencia/lembrar/clinica-medica/hematologia/4000081821.html",
+      "/residencia/lembrar/clinica-medica/hematologia/4000134649.html"
     ]
   },
   {
-    "listing": "/lembrar-para-a-prova.html",
+    "listing": "/residencia/questoes/hepatologia.html",
     "items": [
-      "/lembrar/clinica-medica/hematologia/4000184112.html",
-      "/lembrar/clinica-medica/hematologia/4000169305.html",
-      "/lembrar/clinica-medica/hematologia/4000144077.html",
-      "/lembrar/clinica-medica/hematologia/4000106314.html",
-      "/lembrar/clinica-medica/hematologia/4000133160.html",
-      "/lembrar/clinica-medica/hematologia/4000081821.html",
-      "/lembrar/clinica-medica/hematologia/4000134649.html"
+      "/residencia/questoes/hepatologia/questao-001.html"
     ]
   }
 ]
