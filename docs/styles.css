@@ -1,6 +1,6 @@
-
 /* ===================================
    IDENTIDADE VISUAL — SITE PESSOAL
+   As cores também estão em _brand.yml (Bootstrap); aqui ficam os ajustes finos.
    =================================== */
 
 :root {
@@ -88,176 +88,13 @@ hr {
 
 
 /* ===================================
-   PÁGINA INICIAL
+   PÁGINAS E HOME
    =================================== */
 
+/* As páginas usam o próprio H1 no corpo; a seção Lembrar reexibe o bloco (lembrar/lembrar.css). */
 #title-block-header {
   display: none;
 }
-
-.hero {
-  padding: 5rem 0 5.5rem;
-  max-width: 900px;
-}
-
-.hero-eyebrow {
-  color: var(--marrom);
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.18em;
-  margin-bottom: 2rem;
-}
-
-.hero h1 {
-  max-width: 850px;
-  font-size: clamp(3rem, 7vw, 5.8rem);
-  line-height: 1.06;
-  margin-bottom: 2rem;
-}
-
-.hero-description {
-  max-width: 650px;
-  font-size: 1.15rem;
-  line-height: 1.9;
-  color: var(--marrom);
-}
-
-.hero-link {
-  display: inline-block;
-  margin-top: 1.5rem;
-  color: var(--carvao);
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-decoration: none;
-  border-bottom: 1px solid var(--dourado);
-  padding-bottom: 0.5rem;
-}
-
-.content-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.25rem;
-  margin: 2rem 0 4rem;
-}
-
-.content-card {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  min-height: 280px;
-  padding: 1.75rem;
-  border: 1px solid var(--dourado);
-  border-radius: 4px;
-  color: var(--carvao);
-  text-decoration: none;
-  transition: background-color 0.2s ease;
-}
-
-.content-card:hover {
-  background-color: rgba(168, 149, 117, 0.12);
-  color: var(--carvao);
-}
-
-.card-number {
-  color: var(--marrom);
-  font-size: 0.75rem;
-  letter-spacing: 0.12em;
-}
-
-.content-card h3 {
-  margin-top: 2rem;
-  font-size: 1.5rem;
-}
-
-.content-card p {
-  font-size: 0.95rem;
-  line-height: 1.7;
-}
-
-.card-action {
-  margin-top: auto;
-  padding-top: 1.5rem;
-  color: var(--marrom);
-  font-size: 0.85rem;
-}
-
-.closing-note {
-  padding: 2rem 0 4rem;
-  border-top: 1px solid var(--dourado);
-  color: var(--marrom);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.2rem;
-  font-style: italic;
-}
-
-@media (max-width: 768px) {
-  .hero {
-    padding: 3rem 0;
-  }
-
-  .content-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .content-card {
-    min-height: 230px;
-  }
-}
-
-
-/* Correção da estrutura dos cartões */
-
-.content-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.25rem;
-  margin: 2rem 0 4rem;
-}
-
-.content-card {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  box-sizing: border-box;
-  min-width: 0;
-  min-height: 280px;
-  padding: 1.75rem;
-  border: 1px solid var(--dourado);
-  border-radius: 4px;
-  color: var(--carvao);
-  text-decoration: none;
-}
-
-.content-card h3 {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
-}
-
-.content-card p {
-  font-size: 0.95rem;
-  line-height: 1.7;
-}
-
-.card-action {
-  display: block;
-  margin-top: auto;
-  padding-top: 1.5rem;
-  color: var(--marrom);
-  font-size: 0.85rem;
-}
-
-@media (max-width: 768px) {
-  .content-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-
-/* ===================================
-   IDENTIDADE EDITORIAL — HOME
-   =================================== */
 
 .hero {
   max-width: 900px;
@@ -303,6 +140,11 @@ hr {
   margin-top: 1rem;
   font-size: 2rem;
 }
+
+
+/* ===================================
+   CARTÕES DE CONTEÚDO
+   =================================== */
 
 .content-grid {
   display: grid;
@@ -352,6 +194,14 @@ hr {
   line-height: 1.75;
 }
 
+.card-action {
+  display: block;
+  margin-top: auto;
+  padding-top: 1.5rem;
+  color: var(--marrom);
+  font-size: 0.85rem;
+}
+
 .content-card .card-action {
   display: inline-block;
   margin-top: auto;
@@ -374,6 +224,11 @@ hr {
   font-size: 1.2rem;
   font-style: italic;
 }
+
+
+/* ===================================
+   RESPONSIVO
+   =================================== */
 
 @media (max-width: 900px) {
   .content-grid {

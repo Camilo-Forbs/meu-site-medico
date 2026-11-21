@@ -39,7 +39,7 @@
     "href": "questoes/hepatologia/questao-001.html#gabarito-comentado",
     "title": "Questão 001 — Sorologia das hepatites virais",
     "section": "Gabarito comentado",
-    "text": "Gabarito comentado\n\n\n\n\n\n\nTipRevelar resposta e comentário\n\n\n\n\n\nResposta correta: B — Dosar HCV-RNA.\nO anti-HCV positivo indica exposição prévia ao vírus da hepatite C, mas não diferencia infecção ativa de infecção espontaneamente resolvida ou tratada.\nA pesquisa de HCV-RNA por teste molecular é indicada para investigar infecção atual. Um resultado detectável confirma viremia; um resultado não detectável geralmente indica ausência de infecção ativa naquele momento, considerando o contexto clínico.\nInterpretação da hepatite B: o padrão HBsAg negativo, anti-HBc IgG positivo e anti-HBs positivo é compatível com infecção passada resolvida, com imunidade adquirida por contato natural.\nPor que as outras alternativas estão incorretas?\n\nA) O padrão sorológico apresentado não indica, por si só, necessidade de dosagem de HBV-DNA.\nC) HBeAg e anti-HBe não são os exames indicados para esclarecer a positividade isolada do anti-HCV.\nD) A biópsia hepática não é o primeiro passo para confirmar infecção ativa pelo HCV."
+    "text": "Gabarito comentado\n\n\n\n\n\n\nDicaRevelar resposta e comentário\n\n\n\n\n\nResposta correta: B — Dosar HCV-RNA.\nO anti-HCV positivo indica exposição prévia ao vírus da hepatite C, mas não diferencia infecção ativa de infecção espontaneamente resolvida ou tratada.\nA pesquisa de HCV-RNA por teste molecular é indicada para investigar infecção atual. Um resultado detectável confirma viremia; um resultado não detectável geralmente indica ausência de infecção ativa naquele momento, considerando o contexto clínico.\nInterpretação da hepatite B: o padrão HBsAg negativo, anti-HBc IgG positivo e anti-HBs positivo é compatível com infecção passada resolvida, com imunidade adquirida por contato natural.\nPor que as outras alternativas estão incorretas?\n\nA) O padrão sorológico apresentado não indica, por si só, necessidade de dosagem de HBV-DNA.\nC) HBeAg e anti-HBe não são os exames indicados para esclarecer a positividade isolada do anti-HCV.\nD) A biópsia hepática não é o primeiro passo para confirmar infecção ativa pelo HCV."
   },
   {
     "objectID": "questoes/hepatologia/questao-001.html#pérola-para-a-prova",
@@ -149,9 +149,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Sobre mim",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Camilo André Viana Diaz\nPreparação para a residência, raciocínio clínico e aprendizados do internato. Um espaço para conectar conhecimento científico, fisiopatologia e prática médica."
   },
   {
     "objectID": "casos/mottling-score.html",
