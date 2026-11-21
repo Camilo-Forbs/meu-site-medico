@@ -1,0 +1,216 @@
+/* ===================================
+   RESIDÊNCIA — PAINEL DE ESTUDOS
+   Estilos restritos a .painel-estudos (usado só em residencia/index.qmd).
+   Cores: variáveis de styles.css (--carvao, --off-white, --marrom, --dourado).
+   =================================== */
+
+.painel-estudos {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0 3.5rem;
+}
+
+.estudo-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  min-width: 0;
+  min-height: 320px;
+  padding: 1.75rem 1.6rem 1.5rem;
+  border: 1px solid var(--dourado);
+  border-radius: 4px;
+  background-color: transparent;
+  color: var(--carvao);
+  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+/* O Quarto envolve título e texto numa <section>: ela ocupa o resto do card
+   para que o indicador de navegação fique sempre alinhado ao rodapé. */
+.estudo-card > section {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.estudo-card > p:first-child {
+  margin-bottom: 0;
+}
+
+.estudo-card p:has(> .estudo-card__acao) {
+  margin-top: auto;
+  padding-top: 1.75rem;
+}
+
+/* Categoria (sobretítulo com ícone vetorial) */
+.estudo-card__categoria {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--marrom);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.estudo-card__categoria .bi {
+  font-size: 0.95rem;
+  letter-spacing: 0;
+}
+
+.estudo-card h3 {
+  margin: 2.25rem 0 0.8rem;
+  font-size: 1.5rem;
+  line-height: 1.25;
+}
+
+.estudo-card p {
+  margin-bottom: 0;
+  font-size: 0.92rem;
+  line-height: 1.75;
+}
+
+/* O link do título cobre o card inteiro: qualquer ponto da superfície é clicável */
+.estudo-card__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.estudo-card__link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 4px;
+}
+
+.estudo-card__link:hover,
+.estudo-card__link:focus {
+  color: inherit;
+}
+
+.estudo-card__link:focus-visible {
+  outline: none; /* o contorno fica no card inteiro (abaixo) */
+}
+
+/* Indicador discreto de navegação */
+.estudo-card__acao {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--marrom);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.estudo-card__acao .bi {
+  transition: transform 0.2s ease;
+}
+
+/* Hover e foco de teclado (só nos cards com destino) */
+.estudo-card:has(.estudo-card__link):hover,
+.estudo-card:has(.estudo-card__link:focus-visible) {
+  background-color: rgba(168, 149, 117, 0.12);
+  border-color: var(--marrom);
+  transform: translateY(-2px);
+}
+
+.estudo-card:has(.estudo-card__link):hover .estudo-card__acao .bi,
+.estudo-card:has(.estudo-card__link:focus-visible) .estudo-card__acao .bi {
+  transform: translateX(4px);
+}
+
+.estudo-card:has(.estudo-card__link:focus-visible) {
+  outline: 2px solid var(--marrom);
+  outline-offset: 3px;
+}
+
+/* Destaque: Caderno de erros (Lembrar para a prova) */
+.estudo-card--destaque {
+  border-color: var(--carvao);
+  background-color: var(--carvao);
+  color: var(--off-white);
+}
+
+.estudo-card--destaque h3,
+.estudo-card--destaque .estudo-card__link,
+.estudo-card--destaque .estudo-card__link:hover,
+.estudo-card--destaque .estudo-card__link:focus {
+  color: var(--off-white);
+}
+
+.estudo-card--destaque .estudo-card__categoria,
+.estudo-card--destaque .estudo-card__acao {
+  color: var(--dourado);
+}
+
+.estudo-card--destaque:has(.estudo-card__link):hover,
+.estudo-card--destaque:has(.estudo-card__link:focus-visible) {
+  background-color: #232422;
+  border-color: var(--dourado);
+}
+
+/* Em breve: sem destino ainda, sem link e sem efeito de clique */
+.estudo-card--em-breve {
+  border-style: dashed;
+  cursor: default;
+}
+
+.estudo-card--em-breve h3,
+.estudo-card--em-breve p {
+  color: var(--marrom);
+}
+
+.estudo-card__acao--em-breve {
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+/* Âncoras automáticas do Quarto não fazem sentido dentro dos cards */
+.estudo-card .anchorjs-link {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .estudo-card,
+  .estudo-card__acao .bi {
+    transition: none;
+  }
+
+  .estudo-card:has(.estudo-card__link):hover,
+  .estudo-card:has(.estudo-card__link:focus-visible) {
+    transform: none;
+  }
+}
+
+/* Tablet: dois por linha, destaque ocupa a linha inteira */
+@media (max-width: 991.98px) {
+  .painel-estudos {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .estudo-card--destaque {
+    grid-column: 1 / -1;
+    min-height: 260px;
+  }
+}
+
+/* Celular: uma coluna */
+@media (max-width: 599.98px) {
+  .painel-estudos {
+    grid-template-columns: 1fr;
+  }
+
+  .estudo-card,
+  .estudo-card--destaque {
+    min-height: 0;
+  }
+
+  .estudo-card h3 {
+    margin-top: 1.5rem;
+  }
+}
