@@ -10,18 +10,19 @@ listing:
   id: recentes
   contents: "**/*.md"
   type: table
-  fields: [date, title, banca, gabarito]
+  fields: [date, title, tema, materia]
   field-display-names:
     date: "Data"
-    title: "Tema"
-    banca: "Banca"
-    gabarito: "Gabarito"
+    title: "Resumo"
+    tema: "Tema"
+    materia: "Matéria"
   date-format: "DD/MM/YYYY"
   sort: ["date desc", "title"]
-  max-items: 5
+  sort-ui: [date, title, materia]
+  filter-ui: true
+  page-size: 15
   table-hover: true
-  filter-ui: false
-  sort-ui: false
+include-after-body: _filtro-sem-acento.html
 ---
 
 # Os erros que valem uma segunda leitura.
@@ -39,14 +40,32 @@ Cada questão errada vira um resumo curto: o conceito cobrado, a pegadinha e o q
 
 ### Hematologia
 
-Anemias, reticulócitos, esfregaço periférico e as associações entre achado laboratorial e causa.
+Anemias, reticulócitos, esfregaço periférico, gamopatias monoclonais (mieloma e plasmocitoma) e proteinúria por cadeias leves.
 
 [Ver os erros →](clinica-medica/hematologia.qmd){.card-action}
 :::
 
 :::
 
-## Registros mais recentes
+### Pediatria
+
+::: {.content-grid}
+
+::: {.content-card}
+<span class="card-number">PEDIATRIA</span>
+
+### Neonatologia
+
+Reanimação neonatal: reavaliação após a ventilação com pressão positiva e SpO₂-alvo por minuto de vida.
+
+[Ver os erros →](pediatria/neonatologia.qmd){.card-action}
+:::
+
+:::
+
+## Todos os erros, por data
+
+Os mais recentes aparecem primeiro. Use **Filtrar** para buscar por tema, matéria ou palavra do resumo, ou ordene por outra coluna.
 
 ::: {#recentes}
 :::

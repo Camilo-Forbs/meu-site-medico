@@ -24,6 +24,10 @@ Qualquer merge em `main` publica. Nada vai para `main` sem autorização explíc
 
 ## Seção "Lembrar para a prova" (`residencia/lembrar/`)
 - Erros: `residencia/lembrar/<area>/<materia>/<id>.md`, gerados pelo importador. Não editar à mão.
+- O importador acrescenta, depois do resumo original, dados de `estrategia-med/caderno/entradas.json` (por que errei,
+  para fixar, armadilha, conduta), `caderno/padroes.json` (padrões e erros relacionados, com link quando publicados)
+  e os flashcards do material (bloco recolhível). Somente leitura; se o caderno não existir, gera só o resumo.
+- Matérias publicadas: Clínica Médica › Hematologia, Pediatria › Neonatologia. Índice da seção lista todos os erros por data.
 - Especialidade → pasta: `residencia/lembrar/_mapa.json`. Especialidade nova = nova entrada no mapa
   + página da matéria (copiar `residencia/lembrar/clinica-medica/hematologia.qmd`) + card em `residencia/lembrar/index.qmd`.
 - `ids_dir_antigo` no mapa: os 7 erros publicados antes da mudança de pasta (recebem aliases). Não acrescentar IDs novos.

@@ -75,6 +75,12 @@ body.lembrar .quarto-title-meta-contents {
   body.lembrar .quarto-listing table td:nth-child(5) {
     display: none;
   }
+
+  /* Página de entrada: no celular, o Tema sai da tabela (continua no filtro e em cada erro) */
+  #listing-recentes table th:nth-child(3),
+  #listing-recentes table td:nth-child(3) {
+    display: none;
+  }
 }
 
 /* Menu global com seis itens: evita quebrar "Sobre mim" e
@@ -88,4 +94,24 @@ body.lembrar .quarto-title-meta-contents {
   padding-top: 1rem;
   border-top: 1px solid var(--dourado);
   font-size: 0.9rem;
+}
+
+/* Flashcards (callout recolhível gerado pelo importador): cores da identidade do site */
+body.lembrar .callout.callout-tip {
+  border-color: var(--dourado);
+  border-left-color: var(--marrom);
+  background-color: transparent;
+}
+
+body.lembrar .callout.callout-tip .callout-header {
+  background-color: rgba(168, 149, 117, 0.15);
+}
+
+body.lembrar .callout.callout-tip .callout-icon::before,
+body.lembrar .callout.callout-tip .callout-title-container {
+  color: var(--marrom);
+}
+
+body.lembrar .callout.callout-tip .callout-icon::before {
+  filter: grayscale(1) sepia(1) saturate(2) hue-rotate(-15deg) brightness(0.55);
 }

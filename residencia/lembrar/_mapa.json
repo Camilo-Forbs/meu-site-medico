@@ -13,5 +13,10 @@
       "4000169305",
       "4000184112"
     ]
+  },
+  "Pediatria › Neonatologia": {
+    "dir": "residencia/lembrar/pediatria/neonatologia",
+    "area": "Pediatria",
+    "materia": "Neonatologia"
   }
 }

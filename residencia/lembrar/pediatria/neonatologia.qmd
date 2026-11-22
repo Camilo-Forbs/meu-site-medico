@@ -1,0 +1,27 @@
+---
+title: "Neonatologia"
+subtitle: "Pediatria · Lembrar para a prova"
+listing:
+  contents: "neonatologia/*.md"
+  type: table
+  fields: [date, title, tema, banca, ano, minha_resposta, gabarito]
+  field-display-names:
+    date: "Data"
+    title: "Resumo"
+    tema: "Tema"
+    banca: "Banca"
+    ano: "Ano"
+    minha_resposta: "Você"
+    gabarito: "Gabarito"
+  date-format: "DD/MM/YYYY"
+  sort: ["date desc", "title"]
+  sort-ui: [date, title, banca, ano]
+  filter-ui: true
+  table-hover: true
+  page-size: 30
+include-after-body: ../_filtro-sem-acento.html
+---
+
+[← Lembrar para a prova](../index.qmd)
+
+Use o campo **Filtrar** para buscar por tema, banca ou palavra do título. Cada linha abre o resumo completo da questão.
